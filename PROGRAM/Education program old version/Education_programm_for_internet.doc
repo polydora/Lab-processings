@@ -1,0 +1,821 @@
+{\rtf1\ansi\ansicpg1251\uc1 \deff0\deflang1033\deflangfe1049{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f4\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Times;}{\f5\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Helvetica;}{\f6\fmodern\fcharset0\fprq1{\*\panose 00000000000000000000}Courier;}{\f7\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Geneva;}{\f8\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Tms Rmn;}{\f9\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Helv;}{\f10\froman\fcharset0\fprq2{\*\panose 00000000000000000000}MS Serif;}{\f11\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}MS Sans Serif;}{\f12\froman\fcharset0\fprq2{\*\panose 00000000000000000000}New York;}{\f13\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}System;}{\f14\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}{\f15\fswiss\fcharset0\fprq3{\*\panose 020b0604030504040204}Tahoma;}{\f16\froman\fcharset238\fprq2 Times New Roman CE;}{\f17\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f19\froman\fcharset161\fprq2 Times New Roman Greek;}{\f20\froman\fcharset162\fprq2 Times New Roman Tur;}{\f21\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f22\fswiss\fcharset238\fprq2 Arial CE;}{\f23\fswiss\fcharset204\fprq2 Arial Cyr;}{\f25\fswiss\fcharset161\fprq2 Arial Greek;}{\f26\fswiss\fcharset162\fprq2 Arial Tur;}{\f27\fswiss\fcharset186\fprq2 Arial Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\widctlpar\adjustright \lang1049\cgrid \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}{\s15\widctlpar\tqr\tldot\tx8973\adjustright \lang1049\cgrid \sbasedon0 \snext0 toc 1;}{\s16\qc\widctlpar\adjustright \b\fs36\lang1049\cgrid \sbasedon0 \snext16 Заголовок I;}{\s17\li240\widctlpar\tqr\tldot\tx8973\adjustright \lang1049\cgrid \sbasedon0 \snext0 toc 2;}{\s18\li480\widctlpar\tqr\tldot\tx8973\adjustright \lang1049\cgrid \sbasedon0 \snext0 toc 3;}{\s19\li720\widctlpar\tqr\tldot\tx8973\adjustright \lang1049\cgrid \sbasedon0 \snext0 toc 4;}{\s20\li960\widctlpar\tqr\tldot\tx8973\adjustright \lang1049\cgrid \sbasedon0 \snext0 toc 5;}{\s21\li1200\widctlpar\tqr\tldot\tx8973\adjustright \lang1049\cgrid \sbasedon0 \snext0 toc 6;}{\s22\li1440\widctlpar\tqr\tldot\tx8973\adjustright \lang1049\cgrid \sbasedon0 \snext0 toc 7;}{\s23\li1680\widctlpar\tqr\tldot\tx8973\adjustright \lang1049\cgrid \sbasedon0 \snext0 toc 8;}{\s24\li1920\widctlpar\tqr\tldot\tx8973\adjustright \lang1049\cgrid \sbasedon0 \snext0 toc 9;}{\s25\widctlpar\tqc\tx4153\tqr\tx8306\adjustright \lang1049\cgrid \sbasedon0 \snext25 footer;}{\s26\qc\widctlpar\adjustright \b\lang1049\cgrid \sbasedon0 \snext26 Заголовок II;}{\s27\qc\widctlpar\adjustright \b\i\lang1049\cgrid \sbasedon0 \snext27 Заголовок III;}{\*\cs28 \additive \sbasedon10 page number;}}{\*\listtable{\list\listtemplateid-1\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat0\levelspace0\levelindent0{\leveltext\'01*;}{\levelnumbers;}}{\listname ;}\listid-2}{\list\listtemplateid-25626798\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent283{\leveltext\'03\'00) ;}{\levelnumbers\'01;}\b0\i0\f0\fs24\ulnone\fbias0 \fi-283\li343 }{\listname ;}\listid698511844}{\list\listtemplateid-166165210\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent-709{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi709\li0 }{\listname ;}\listid997998909}{\list\listtemplateid-1024147806\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent-720{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi720\li0 }{\listname ;}\listid1036466255}{\list\listtemplateid-1932255804\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent-720{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi720\li0 }{\listname ;}\listid1636057320}}{\*\listoverridetable{\listoverride\listid-2\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent-720{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi720\li0 }}\ls1}{\listoverride\listid-2\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent-709{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi709\li0 }}\ls2}{\listoverride\listid-2\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent283{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-283\li1003 }}\ls3}{\listoverride\listid997998909\listoverridecount0\ls4}{\listoverride\listid997998909\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent-709{\leveltext
+\'02\'00.;}{\levelnumbers\'01;}\fi709\li0 }}\ls5}{\listoverride\listid997998909\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent-709{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi709\li0 }}\ls6}{\listoverride\listid997998909\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent-709{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi709\li0 }}\ls7}{\listoverride\listid997998909\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent-709{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi709\li0 }}\ls8}{\listoverride\listid1036466255\listoverridecount0\ls9}{\listoverride\listid1036466255\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent-720{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi720\li0 }}\ls10}{\listoverride\listid1036466255\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent-720{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi720\li0 }}\ls11}{\listoverride\listid1636057320\listoverridecount0\ls12}{\listoverride\listid1636057320\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent-720{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi720\li0 }}\ls13}{\listoverride\listid1636057320\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent-720{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi720\li0 }}\ls14}{\listoverride\listid1636057320\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent-720{\leveltext
+\'02\'00.;}{\levelnumbers\'01;}\fi720\li0 }}\ls15}{\listoverride\listid1636057320\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent-720{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi720\li0 }}\ls16}{\listoverride\listid1636057320\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent-720{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi720\li0 }}\ls17}{\listoverride\listid1636057320\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent-720{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi720\li0 }}\ls18}{\listoverride\listid-2\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent283{\leveltext\'01\u-3928 ?;}{\levelnumbers;}\f3\fbias0 \fi-283\li283 }}\ls19}{\listoverride\listid698511844\listoverridecount0\ls20}}{\*\revtbl {Unknown;}}{\info{\title Образовательная программа Лаборатории экологии морского бентоса (Гидробиологии) Санкт - Петербургского Дворца Творчества Юных}{\author Неизвестный}{\operator V}{\creatim\yr2003\mo4\dy16\hr13\min28}{\revtim\yr2003\mo4\dy16\hr13\min33}{\printim\yr2002\mo1\dy23\hr14\min31}{\version3}{\edmins4}{\nofpages34}{\nofwords12567}{\nofchars71636}{\*\company ЛЭМБ}{\nofcharsws87974}{\vern89}}\paperw11906\paperh16838\margr1133\margb1135 \widowctrl\ftnbj\aenddoc\lytprtmet\formshade\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot \fet0\sectd \linex0\headery709\footery709\colsx709\endnhere\sectdefaultcl {\footer \pard\plain \s25\widctlpar\tqc\tx4153\tqr\tx8306\pvpara\phmrg\posxr\posy0\adjustright \lang1049\cgrid {\field{\*\fldinst {\cs28 PAGE  }}{\fldrslt {\cs28\lang1024 1}}}{\cs28 
+\par }\pard \s25\ri360\widctlpar\tqc\tx4153\tqr\tx8306\adjustright {
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \qc\widctlpar\adjustright \lang1049\cgrid {\b\f17\fs28 Образовательная программа Лаборатории экологии морского бентоса (Гидробиологии)}{\b\fs28 
+\par <br><br>}{\b\f17\fs28  Санкт - Петербургского Городского Дворца Творчества Юных}{\b\fs28 
+\par }\pard \widctlpar\adjustright {\b\fs28 <br><br>}{
+\par }\pard\plain \s16\qc\widctlpar\adjustright \b\fs36\lang1049\cgrid {<br><br>}{\f17 {\*\bkmkstart _Toc505147679}{\*\bkmkstart _Toc505148461}{\*\bkmkstart _Toc505484138}Концепция программы}{\lang1033 {\*\bkmkend _Toc505147679}{\*\bkmkend _Toc505148461}{\*\bkmkend _Toc505484138}
+\par }\pard\plain \qc\widctlpar\adjustright \lang1049\cgrid {\lang1033 <br><br>}{\b 
+\par }\pard\plain \s26\qc\widctlpar\adjustright \b\lang1049\cgrid {\b0 <br><br>}{\f17 {\*\bkmkstart _Toc505148462}{\*\bkmkstart _Toc505484139}{\*\bkmkstart _Toc505484239}{\*\bkmkstart _Toc505485129}Введение}{{\*\bkmkend _Toc505148462}{\*\bkmkend _Toc505484139}{\*\bkmkend _Toc505484239}{\*\bkmkend _Toc505485129} 
+\par }\pard\plain \qj\fi720\widctlpar\adjustright \lang1049\cgrid {<br><br>}{\f17 В последнее время, среди огромного спектра проблем российского общества, на первый план выходит резкое сокращение интереса к научно-исследовательской деятельности. Эта тенденция проявляется как в сокращении числа абитуриентов, поступающих в вузы теоретического профиля, так и в заметном уменьшении финансирования фундаментальных исследовательских программ. Престиж научного работника в обществе упал до катастрофически низкой отметки, что включило всем хорошо знакомый процесс \ldblquote оттока мозгов\rdblquote  за рубеж. Опасность складывающегося положения нельзя недооценивать - Россия, по сути дела, встала перед угрозой разрушения собственной науки. Ситуация усугубляется и тем, что у школьников}{\lang1033  }{\f17 в качестве идеального члена общества устойчиво сформировался образ бизнесмена... в лучшем случае. Общество все более ориентируется на потребление плодов научно-технического прогресса, не отдавая себе отчет в том, что сам прогресс, в первую очередь, зависит от состояния науки.}{
+\par <br><br>}{\f17 В связи с этим система образования обязана стать тем островком, на  котором сохраняется сложившийся прежде дух научного общества. При этом речь идет не просто о преподавании каких-то дисциплин или об обучении школьников или студентов основам современных технологий, а о создании реально работающих научных коллективов, построенных в традициях российских университетов. Имея перед глазами пример Санкт-Петербургского городского Дворца творчества юных, отрадно осознавать, что хотя бы здесь такой островок существует. }{
+\par <br><br>}{\f17 Среди большого количества форм привлечения школьников к научно-исследовательской деятельности одним из наиболее результативных оказывается экспедиционно-полевое направление. Формирование постоянных групп школьников, выезжающих в  экспедиции, особенно бурно происходило в 50-х - 60-х годах. Особую роль в развитии этого движения сыграл П. Н. Митрофанов, который нашел удачную форму проведения такого рода выездов - работу в заповедниках, где школьники оказывают научным сотрудникам помощь в проведении полевых исследований. Его базой стал Кандалакшский государственный заповедник. Концепцию Павла Николаевича принял Е. А. Нинбург, который организовал в 1965 г. Лабораторию экологии морского бентоса (ЛЭМБ), которая продолжила экспедиции в Кандалакшский заповедник. Позже в Ленинграде появились и другие коллективы сходного профиля. Данная образовательная программа, по сути дела, является концептуальной основой для деятельности третьего поколения педагогов. }{
+\par <br><br>}{\f17 Основа образовательной парадигмы, разработанной в ЛЭМБ, заключается в том, что экспедиция - это не просто форма обучения, удачная педагогическая технология, с помощью которой дети в отрыве от привычной среды лучше осваивают те или иные навыки, глубже понимают то, чему их обучает педагог. Главной задачей   экспедиций оказывается именно }{\i\f17 исследовательская деятельность}{\f17 , дающая реальную научную продукцию. И уже на этом субстрате появляется возможность решать  разнообразные педагогические задачи. При этом традиции, сложившиеся в рамках этой парадигмы, дают возможность получать успешный образовательный эффект - доводить результаты исследований до публикаций в настоящих научных журналах или представления на научных конференциях и симпозиумах. }{
+\par <br><br>
+\par }\pard\plain \s26\qc\widctlpar\adjustright \b\lang1049\cgrid {<br><br>}{\f17 {\*\bkmkstart _Toc505148463}{\*\bkmkstart _Toc505484140}{\*\bkmkstart _Toc505484240}{\*\bkmkstart _Toc505485130}Цели и задачи программы}{{\*\bkmkend _Toc505148463}{\*\bkmkend _Toc505484140}{\*\bkmkend _Toc505484240}{\*\bkmkend _Toc505485130} 
+\par }\pard\plain \qj\fi720\widctlpar\adjustright \lang1049\cgrid {<br><br>}{\f17 Педагогический коллектив Лаборатории становит перед собой три цели, имеющих одинаково значимое место в образовательной программе. Во-первых, ориентация школьников на профессиональное занятие наукой. Во-вторых, создание условий для развития у учащихся критически-исследовательского подхода к анализу процессов, протекающих в окружающем мире. В-третьих, воспитание у школьников чувства личной сопричастности к проблемам Биосферы.}{
+\par <br><br>}{\f17 Достижения этих целей осуществляется при прохождении двух уровней образовательной программы. При этом на каждом уровне эти цели достигаются за счет решения разных педагогических задач, с использованием разных педагогических технологий. В целом, спектр проблем, которые встают в процессе решения педагогических задач, при реализации двух уровней программы, невероятно широк: от обучения школьников основам элементарной математики и грамматики, до обучения современной вычислительной технике; от обучения ребенка элементарным навыкам самообеспечения, до обучения правилам самостоятельного планирования и проведения полевой исследовательской работы; от объяснения простейших правил поведения в природе, до обсуждения с учащимися концепций рационального природопользования.  В связи с этим, целесообразно рассмотреть педагогические задачи, которые ставятся для каждого уровня, отдельно.}{
+\par <br><br>}{\b\f17 Первый уровень программы}{\f17  рассчитан на вновь пришедших в коллектив учеников. При работе с ними наиболее важными оказывается решение педагогических задач, относящихся как к образовательным , так и воспитательным и развивающим. Вот наиболее важные изних.}{
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnstart1\pnindent-720 {\pntxtb \'b7}}\ls1\adjustright {<br><br>}{\f17  Освоение основных навыков обучения (ведение конспекта, вычленение главного из услышанного, ответы на поставленные педагогом вопросы).}{
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnstart1\pnindent-720 {\pntxtb \'b7}}\ls1\adjustright {<br><br>}{\f17  Обучение основам биологии (зоологии, ботаники, микробиологии, экологии, теории эволюции). }{
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnstart1\pnindent-720 {\pntxtb \'b7}}\ls1\adjustright {<br><br>}{\f17  Освоение биоразнообразия окружающего мира (изучение наиболее типичных обитателей различных биотопов Ленинградской области, освоение разнообразия макротаксонов животных и растений). }{
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnstart1\pnindent-720 {\pntxtb \'b7}}\ls1\adjustright {<br><br>}{\f17  Обучение основам самообеспечения при проведении полевых работ (начальная туристическая подготовка).}{
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnstart1\pnindent-720 {\pntxtb \'b7}}\ls1\adjustright {<br><br>}{\f17  Освоение учащимися основных правил поведения в природе и в обществе.}{
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnstart1\pnindent-720 {\pntxtb \'b7}}\ls1\adjustright {<br><br>}{\f17   Интеграция учащихся в существующий коллектив (освоение традиций Лаборатории, приобретение навыков коллективной работы)}{
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnstart1\pnindent-720 {\pntxtb \'b7}}\ls1\adjustright {<br><br>}{\f17  Развитие основных навыков поведения в научном обществе (правила ведения дискуссии, изложение и доказательство собственных идей, выработка индивидуального и коллективного решения).}{
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnstart1\pnindent-720 {\pntxtb \'b7}}\ls1\adjustright {<br><br>}{\f17  Формирование экологической культуры. }{
+\par }\pard \qj\widctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {<br><br>
+\par }\pard \qj\fi709\widctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {<br><br>}{\f17 \tab На }{\b\f17 втором уровне }{\f17 освоения образовательной программы учащийся проходит три этапа, каждый из которых характеризуется определенной глубиной освоения второго уровня программы. На каждом этапе решаются разные задачи. }{
+\par <br><br>}{\f17\ul Первый этап}{\f17  мы условно называем \ldblquote }{\i\f17 ученик-лаборант}{\f17 \rdblquote . Основными задачами здесь оказываются:}{
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi709\widctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf3\pnstart1\pnindent-709 {\pntxtb \'b7}}\ls2\adjustright {<br><br>}{\f17  Обучение основным методам сбора и обработки научного материала.}{
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi709\widctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf3\pnstart1\pnindent-709 {\pntxtb \'b7}}\ls2\adjustright {<br><br>}{\f17  Обучение правилам работы и составления  научных коллекций.}{
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi709\widctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf3\pnstart1\pnindent-709 {\pntxtb \'b7}}\ls2\adjustright {<br><br>}{\f17 Освоение приемов представления научного материала (написание самостоятельной исследовательской работы, представление результатов работы в виде докладов).}{
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi709\widctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf3\pnstart1\pnindent-709 {\pntxtb \'b7}}\ls2\adjustright {<br><br>}{\f17  Освоение навыков проведения экскурсий в музее и в природе. }{
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi709\widctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf3\pnstart1\pnindent-709 {\pntxtb \'b7}}\ls2\adjustright {<br><br>}{\f17 Освоение навыков работы с научной литературой (в том числе и иностранной).}{
+\par }\pard \qj\fi720\widctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {<br><br>}{\f17\ul Второй этап}{\f17  мы называем \ldblquote }{\i\f17 ученик-соавтор}{\f17 \rdblquote . Здесь главной задачей оказывается освоение навыков написания научной публикации в соавторстве с руководителем. Помимо этого ученики, проходящие этот этап, активно привлекаются к проведению занятий с младшими членами коллектива, т. е. решается задача выработки у ученика основных навыков педагогической деятельности.}{
+\par <br><br>}{\f17\ul Третий этап}{\f17  мы называем \ldblquote }{\i\f17 ученик-коллега}{\f17 \rdblquote . Этот этап проходят лишь некоторые из учащихся, избравшие в качестве своей будущей специальности занятие наукой. Основной задачей этого этапа оказывается интеграция учащихся в научное сообщество. На этом этапе приходится привлекать школьников к работе на \ldblquote взрослых\rdblquote  конференциях и даже на международных симпозиумах, обучать ребят технологиям самостоятельного написания статей.}{
+\par }\pard \qj\widctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {<br><br>}{\f17 \tab Помимо задач, решаемых на каждом из этапов, есть еще ряд задач, которые решаются при работе со всеми ребятами, проходящими второй уровень программы, вне зависимости от того на каком этапе освоения программы ученики находятся. К числу наиболее значимых из них относятся следующие:}{
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart1\pnindent283\pnhang{\pntxtb \'b7}}\ls3\adjustright {<br><br>}{\f17 Повышение уровня знаний в биологии (подробное изучение экологии и основ рационального природопользования, морской биологии и биологической статистики).}{
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart1\pnindent283\pnhang{\pntxtb \'b7}}\ls3\adjustright {<br><br>}{\f17 Приобретение навыков использования приборной базы (освоение ЭВМ и аналитических и полевых приборов).}{
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart1\pnindent283\pnhang{\pntxtb \'b7}}\ls3\adjustright {<br><br>}{\f17 Углубленное изучение определенных групп животных (учащиеся специализируются в определения морских и пресноводных животных). }{
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}<br><br>}{\f17 Развитие личностных качеств, приводящих к успеху на конкурсах и олимпиадах.}{
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}<br><br>}{\f17 Профессиональная ориентация. }{
+\par {\pntext\pard\plain\f3\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}<br><br>}{\f17 Получение социального опыта.}{
+\par }\pard \qj\widctlpar\adjustright {<br><br>
+\par <br><br>
+\par }\pard\plain \s26\qc\widctlpar\adjustright \b\lang1049\cgrid {<br><br>}{\f17 {\*\bkmkstart _Toc505148464}{\*\bkmkstart _Toc505484141}{\*\bkmkstart _Toc505484241}{\*\bkmkstart _Toc505485131}Продолжительность освоения программы}{{\*\bkmkend _Toc505148464}{\*\bkmkend _Toc505484141}{\*\bkmkend _Toc505484241}{\*\bkmkend _Toc505485131}
+\par }\pard\plain \qj\widctlpar\adjustright \lang1049\cgrid {<br><br>}{\f17 \tab Программа предусматривает многолетние занятия школьников. Вместе с тем учитывается, что часть из них будет заниматься только один год. Поэтому программа первого уровня представляет собой вполне законченный курс обучения.}{
+\par }\pard \qj\fi720\widctlpar\adjustright {<br><br>}{\f17 Освоение первого уровня продолжается один учебный год. Те учащиеся, которые остались в Лаборатории после прохождения первого уровня программы, осваивают второй уровень в течении 2-4 лет. Для большинства кружковцев естественным сроком завершения прохождения программы оказывается окончание школы. Однако, для учащихся, которые взялись за прохождение этапа \ldblquote ученик-коллега\rdblquote  освоение программы продолжается и на первых курсах ВУЗа. }{
+\par }\pard\plain \s26\qc\widctlpar\adjustright \b\lang1049\cgrid {<br><br>{\*\bkmkstart _Toc505148465}{\*\bkmkstart _Toc505484142}{\*\bkmkstart _Toc505484242}
+\par }\pard \s26\qc\widctlpar\adjustright {<br><br>
+\par <br><br>
+\par <br><br>
+\par <br><br>
+\par }\pard \s26\qc\widctlpar\adjustright {<br><br>}{\f17 {\*\bkmkstart _Toc505485132}Характеристика учащихся и организация учебного процесса}{{\*\bkmkend _Toc505148465}{\*\bkmkend _Toc505484142}{\*\bkmkend _Toc505484242}{\*\bkmkend _Toc505485132}
+\par }\pard\plain \qc\widctlpar\adjustright \lang1049\cgrid {<br><br>
+\par }\pard\plain \s27\qc\widctlpar\adjustright \b\i\lang1049\cgrid {<br><br>}{\f17 {\*\bkmkstart _Toc505148466}{\*\bkmkstart _Toc505484143}{\*\bkmkstart _Toc505484243}{\*\bkmkstart _Toc505485133}Первый уровень освоения программы}{{\*\bkmkend _Toc505148466}{\*\bkmkend _Toc505484143}{\*\bkmkend _Toc505484243}{\*\bkmkend _Toc505485133}
+\par }\pard\plain \qj\fi720\widctlpar\adjustright \lang1049\cgrid {<br><br>}{\f17 Программа первого года обучения (первый уровень образовательной программы) рассчитана на школьников 7-9 классов, проявляющих интерес к зоологии и биологии моря, причем полное знание школьной программы курса биологии (зоологии, ботаники и т.п.) не является обязательным. Прием в Лабораторию проводится свободно, без какого-либо предварительного отбора. При формировании групп нет строгой дифференциации по возрасту. Последнее особенно важно, так как это, с одной стороны, стимулирует младших школьников к более ускоренному освоению материала, а, с другой стороны, позволяет старшим повторить и углубить уже имеющиеся знания.}{
+\par }\pard \qj\widctlpar\adjustright {<br><br>}{\f17  \tab Курс рассчитан на один год обучения, при этом около половины всего времени (144 часа) отводится на лекционные и лабораторные практические занятия, а оставшееся время на экскурсии и весеннюю полевую практику (72 и  80 часов соответственно). Курс состоит из пяти крупных разделов, при этом каждый состоит из нескольких тем, изучение материала которых проводится на лекциях, практических занятиях, экскурсиях или полевой практике.}{
+\par <br><br>}{\f17  \tab Программа первого года обучения построена по иерархически блоковому принципу. Это позволяет педагогу по своему желанию менять порядок освоения материала различных разделов. К тому же школьник может завершить обучение после прослушивания материала какого либо раздела, либо начать обучение с любого из разделов, так что сохраняется возможность принимать желающих заниматься в течении всего года.}{
+\par <br><br>}{\f17  \tab На лекционных занятиях изложение материала педагогом может чередоваться с диалоговым обсуждением с учащимися некоторых проблемных вопросов биологии, что крайне важно для развития у детей умения решать биологические задачи. При этом особое внимание уделяется особенностям ведения конспекта, что очень важно для развития навыков в самостоятельном выборе наиболее важных моментов лекции. Проверка знаний осуществляется посредством коротких устных опросов в начале занятия, как правило в игровой форме, письменных опросов ориентированных на проверку знания содержания конспекта или смысла той или иной темы. После полного изучения материала по данной теме или раздела в целом проводится устный зачет. Для проведения зачета привлекаются ребята, проходящие второй уровень образовательной программы. Необходимо отметить, что в некоторых случаях, в частности, когда необходим богатый иллюстративный материал, занятия проводятся в Зоологическом музее ЗИН. В некоторых случаях лекции по определенным темам проводятся, приглашенными специалистами из СПБГУ или Зоологического института РАН.}{
+\par <br><br>}{\f17  \tab На лабораторных практических занятиях основное внимание уделяется освоению практических навыков в работе с лабораторным оборудованием, изготовлению биологических препаратов и рисунков. При этом, учащиеся должны научиться самостоятельно применять знания, полученные на лекциях, для конкретной практической работы. В случаях, когда необходимо большое количество раздаточного материала, занятия проводятся на Кафедре зоологии беспозвоночных СПбГУ.}{
+\par <br><br>}{\f17  \tab На экскурсиях проводятся занятия по самостоятельному наблюдению за природой. Экскурсии служат иллюстрацией к тем или иным темам, пройденным в лекционном курсе. Особое внимание на экскурсиях уделяется объяснению правил поведения в природе и обществе.}{
+\par <br><br>}{\f17  \tab Весенняя полевая практика является завершающим этапом в освоении первого уровня образовательной программы}{\lang1033 . }{\f17 Здесь завершается изучение тем разделов “Животные и растения Ленинградской области” и “Начальная туристическая подготовка”. В конце практики проводится устный зачет.}{
+\par <br><br>}{\f17  \tab Таким образом, первый уровень образовательной программы обеспечивает сверхбазовое биологическое образование, затрагивая по некоторым темам области высшего образования, что дает возможность учащимся ориентироваться на дальнейшую специализацию своего образования в рамках высшей школы.}{
+\par <br><br>}{\f17  \tab К концу первого года обучения учащиеся должны свободно ориентироваться в многообразии, морфологии и экологии основных групп беспозвоночных, знать обычных представителей фауны и флоры Ленинградской области, обладать навыками жизни в полевых условиях. Выпускник первого года обучения уже способен, выбрать и начать самостоятельную исследовательскую работу, участвовать в городской биологической олимпиаде, научно-практической конференции, исследовательских экспедициях лабораторий отдела биологии. После освоения первого уровня образовательной программы школьнику предоставляется право выбора своего дальнейшего образовательного маршрута: он может продолжать занятия в Лаборатории Экологии Морского Бентоса, или в любой другой лаборатории отдела биологии (см. “Раздел индивидуальные образовательные маршруты учащихся”).}{
+\par <br><br>
+\par }\pard\plain \s27\qc\widctlpar\adjustright \b\i\lang1049\cgrid {<br><br>}{\f17 {\*\bkmkstart _Toc505148467}{\*\bkmkstart _Toc505484144}{\*\bkmkstart _Toc505484244}{\*\bkmkstart _Toc505485134}Второй уровень освоения программы}{{\*\bkmkend _Toc505148467}{\*\bkmkend _Toc505484144}{\*\bkmkend _Toc505484244}{\*\bkmkend _Toc505485134}
+\par }\pard\plain \qj\widctlpar\adjustright \lang1049\cgrid {<br><br>}{\f17 \tab Освоение второго уровня образовательной программы носит циклический характер. Школьники (8-11 классы), перешедшие на второй уровень, начинают свое обучение с освоения хотя бы одной из трех главных форм работы (беломорские экспедиции, самостоятельные исследовательские работы или учебные курсы). Обычно учащиеся Лаборатории осваивают все три формы в следующей последовательности: экспедиция, самостоятельная исследовательская работа, учебный курс. Однако, в некоторых случаях ребята могут не принимать участия в экспедиции, но при этом начать освоение второго уровня с выполнения, например, самостоятельной работы.}{
+\par <br><br>}{\f17 \tab При освоении второго уровня образовательной программы процесс обучения происходит, преимущественно, в форме индивидуальной работы. Школьники выполняют самостоятельные исследовательские или музейные работы. Учебные занятия занимают меньшую часть времени.}{
+\par <br><br>}{\f17  \tab При выполнении самостоятельных работ руководитель работает с небольшими группами (2 - 3 чел.) или индивидуально с каждым. При написании самостоятельной исследовательской работы школьники обучаются работе с научными библиотеками и научной литературой (при этом в качестве важнейшего требования к работе старших школьников предъявляется освоение не только отечественной, но и зарубежной литературы), на практике отрабатывают основные методики и пытаются самостоятельно дать интерпретацию полученным результатам. Наиболее удачные работы школьников доводятся до публикации в научной периодической печати.}{
+\par <br><br>}{\f17  \tab Учебно-лекционные занятия со старшими кружковцами ведутся чаще всего со всей группой или сдвоенными группами. Основной упор в учебных занятиях старших кружковцев делается на методические и методологические предметы. Так в качестве основных курсов в учебной программе второго и последующих годов обучения нами разработаны лекционно-практические программы по основам статистики, методологии научного исследования и основам компьютерной грамотности. Помимо этого, раз в два года читается курс общей экологии и частной биоценологии. На лекциях этих курсов школьники получают современные специальные сведения в области экологии и морской биологии.}{
+\par <br><br>}{\f17 \tab Важное место в решении задач второго уровня образовательной программы Лаборатории играет Городская олимпиада школьников по биологии. Учащиеся Лаборатории ежегодно принимают в ней участие, что позволяет им проверить имеющийся у них багаж знаний. Кроме того олимпиада позволяет школьникам избавится от боязни общения с экзаменаторами.}{
+\par }\pard \qj\fi720\widctlpar\adjustright {<br><br>}{\f17 Второй уровень образовательной программы подразумевает продолжение некоторыми учащимися работы в рамках научно-исследовательской программы Лаборатории уже после окончания школы, на первых курсах ВУЗов. Эти учащиеся формируют студенческую исследовательскую группу. Лаборатория предоставляет для студентов возможность проведения курсовых работ, а педагоги Лаборатории выступают в качестве их научных руководителей. }{
+\par }\pard \qj\fi709\widctlpar\adjustright {<br><br>
+\par }\pard\plain \s26\qc\widctlpar\adjustright \b\lang1049\cgrid {<br><br>}{\f17 {\*\bkmkstart _Toc505148468}{\*\bkmkstart _Toc505484145}{\*\bkmkstart _Toc505484245}{\*\bkmkstart _Toc505485135}Образовательные маршруты учащихся}{{\*\bkmkend _Toc505148468}{\*\bkmkend _Toc505484145}{\*\bkmkend _Toc505484245}{\*\bkmkend _Toc505485135}
+\par }\pard\plain \qj\fi720\widctlpar\adjustright \lang1049\cgrid {<br><br>}{\f17 Запись учащиеся в Лабораторию осуществляется в первой декаде сентября. Однако организация программы такова, что отдельные школьники могут записываться и позднее. Кроме записи учащихся, впервые пришедших во Дворец, в Лабораторию поступают ребята и из других коллективов отдела биологии. После прохождения первого уровня образовательной программы, заканчивающегося весенней полевой практикой, происходит отбор учащихся в научные экспедиции Лаборатории, которые проводятся на территории Кандалакшского государственного заповедника или некоторых других научных стационарах на Белом море}{. 
+\par <br><br>}{\f17 При отборе учащихся в экспедицию происходит и разделение их по научно-исследовательским группам Лаборатории. Таких групп две: группа исследования прибрежных сообществ и группа изучения сублиторального бентоса. Группы различаются тематикой научных исследований. Работа в исследовательских группах продолжается 2-4 года. При этом, работа регламентируется Уставом Лаборатории (см. Приложение).}{
+\par <br><br>}{\f17 После окончания учебы в школе, ребята, поступившие на Биолого-почвенный факультет СПбГУ и избравшие свою специализацию по теме Гидробиология и Зоология беспозвоночных, могут принимать участие в работе студенческой исследовательской группы Лаборатории.}{\lang1033 
+\par }\pard \qj\fi709\widctlpar\adjustright {\lang1033 <br><br>}{\f17 Полноценное освоение образовательной программы (или одного из ее уровней) подразумевает либо полное прохождение первого уровня, либо освоение полного цикла обучения на втором уровне (участие в экспедиции, написание самостоятельной работы и прослушивание учебных курсов).}{
+\par <br><br>
+\par }\pard\plain \s26\qc\widctlpar\adjustright \b\lang1049\cgrid {<br><br>}{\f17 {\*\bkmkstart _Toc505148469}{\*\bkmkstart _Toc505484146}{\*\bkmkstart _Toc505484246}{\*\bkmkstart _Toc505485136}Формы обучения и педагогические технологии}{{\*\bkmkend _Toc505148469}{\*\bkmkend _Toc505484146}{\*\bkmkend _Toc505484246}{\*\bkmkend _Toc505485136}
+\par }\pard\plain \qj\fi709\widctlpar\adjustright \lang1049\cgrid {<br><br>}{\f17 Лаборатория имеет все необходимое оборудование (микроскопы, бинокуляры, персональные компьютеры, учебные и типовые коллекции морских и пресноводных организмов) для проведение лабораторных практических занятий и выполнения самостоятельных исследовательских работ. На стационарах, где проводятся экспедиции, есть все необходимое оборудование для организации полевых исследований. }{
+\par }\pard \qj\fi709\widctlpar\adjustright {<br><br>}{\f17 Формы работы с учащимися Лаборатории при освоении разных уровней программы различны. }{
+\par }\pard \qj\fi709\widctlpar\adjustright {<br><br>\page 
+\par }\pard\plain \s27\qc\widctlpar\adjustright \b\i\lang1049\cgrid {<br><br>}{\f17 {\*\bkmkstart _Toc505148470}{\*\bkmkstart _Toc505484147}{\*\bkmkstart _Toc505484247}{\*\bkmkstart _Toc505485137}Первый уровень}{{\*\bkmkend _Toc505148470}{\*\bkmkend _Toc505484147}{\*\bkmkend _Toc505484247}{\*\bkmkend _Toc505485137}
+\par }\pard\plain \qj\fi709\widctlpar\adjustright \lang1049\cgrid {<br><br>}{\f17 Можно выделить три главных формы работы с ребятами, проходящими первый уровень образовательной программы: лекционные и практические занятия, загородные экскурсии и весенняя полевая практика. Каждая из этих форм работы основана на достаточно большом количестве разнообразных педагогических технологий. Ниже перечисляются лишь наиболее важные из них.}{
+\par <br><br>}{\i\f17 Лекционные и практические занятия}{ 
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \qj\fi709\widctlpar{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec\pnstart1\pnindent-709 {\pntxta .}}\ls4\adjustright {<br><br>}{\f17 При проведении лекций происходит чередование монолога педагога и диалогового общения с учениками. Это позволяет, с одной стороны, выработать у учащихся привычку к грамотному ведению конспекта (вычленение главного из монолога), а, с другой стороны, оживляет атмосферу в аудитории.}{
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 2.\tab}}\pard \qj\fi709\widctlpar{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec\pnstart1\pnindent-709 {\pntxta .}}\ls5\adjustright {<br><br>}{\f17 Обсуждение домашнего задания с учениками проводится в игровой форме. В качестве домашнего задания ученикам предлагаются вопросы биологических олимпиад прошедших лет. Ребята должны подготовить дома некоторые варианты ответов на эти вопросы. В аудитории проверка проходит в виде игры \ldblquote Интеллектуальное казино\rdblquote .  Правила игры следующие. Вопросы, которые задаются ребятам на дом, бывают двух типов. Первый тип - это перечисление как можно большего количества биологических объектов с заданными свойствами. При проверке такого задания педагог объявляет нечто вроде аукциона. Он делает ставку в определенное количество баллов (в зависимости от сложности вопроса), эти баллы получает тот ученик, который последним назвал соответствующий объект. Второй тип вопросов - это вопросы на выдвижение гипотез, объясняющих те или иные явления. Каждый желающий может предложить свою собственную гипотезу. За это он сразу получает один балл (вне зависимости от того правильная она или нет). Далее все ребята из группы должны поставить на эту гипотезу от 0 до 5 баллов. Но если гипотеза построена неправильно, то все поставленные баллы становятся отрицательными. Если же она правильная, то баллы остаются положительными. Победителем объявляется тот кто набрал большее количество баллов.}{
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 3.\tab}}\pard \qj\fi709\widctlpar{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec\pnstart1\pnindent-709 {\pntxta .}}\ls6\adjustright {<br><br>}{\f17 При проведении практических занятий учащимся предлагается самостоятельно проанализировать изучаемый объект. Он должен сам найти и зарисовать те части, которые были упомянуты в лекционном курсе. При этом, педагог требует от ребенка выполнения зоологического рисунка в соответствии с установленными правилами.}{
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 4.\tab}}\pard \qj\fi709\widctlpar{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec\pnstart1\pnindent-709 {\pntxta .}}\ls7\adjustright {<br><br>}{\f17 Для освоения азов искусства быть докладчиком проводится миниконференция, где ребята делают короткие доклады по темам, которые им предложены для самостоятельного изучения. При этом оценивается не только содержание доклада, но и его форма, подобранный иллюстративный материал и т.п. Кроме того, специальной оценке подвергается работа слушателей.   }{
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 5.\tab}}\pard \qj\fi709\widctlpar{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec\pnstart1\pnindent-709 {\pntxta .}}\ls8\adjustright {<br><br>}{\f17 Для выявления проблем с техникой ведения конспекта проводится игра, при  которой ученикам зачитывается некоторый отрывок из учебника и в ходе чтения ученики должны законспектировать речь педагога. Далее производится оценка полноты конспекта.}{
+\par }\pard \qj\widctlpar\adjustright {<br><br>
+\par }\pard \qj\fi720\widctlpar\adjustright {<br><br>}{\i\f17 Загородные экскурсии}{\i 
+\par {\pntext\pard\plain\i\cgrid \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec\pnstart1\pnindent-720 {\pntxta .}}\ls9\adjustright {\i <br><br>}{\f17 Экскурсия планируется так, чтобы помимо ознакомления с животными и растениями учащиеся занимались и основами начальной туристической подготовки. Поэтому маршрут экскурсии прокладывается по максимально пересеченной местности. }{
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 2.\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec\pnstart1\pnindent-720 {\pntxta .}}\ls10\adjustright {<br><br>}{\f17 Во время экскурсии даются как русские так и латинские называния животных и растений. Для закрепления этих знаний проводится игра \ldblquote Кто первый\rdblquote . Педагог называет какое-либо название вида на латинском языке, побеждает тот ребенок, который первым вспомнил называние по-русски. И наоборот. Помимо этого предлагается принести образцы того или иного растения или животного, название которого дается по-латыни. Побеждает тот, кто первым смог отыскать и принести такой образец.}{
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 3.\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec\pnstart1\pnindent-720 {\pntxta .}}\ls11\adjustright {<br><br>}{\f17 В конце экскурсии ребятам предлагается сыграть в игру \ldblquote Экскурсионный аукцион\rdblquote . Для этого учащиеся должны называть все те замечательные объекты, которые были встречены на экскурсиях (не только животных или растений, но и памятники, строения и т.п., важно, чтобы ребята вспомнили где этот объект видели и при каких обстоятельствах). Побеждает тот, кто назовет последний такой объект.}{
+\par }\pard \qj\widctlpar\adjustright {<br><br>
+\par }\pard \qj\fi720\widctlpar\adjustright {<br><br>}{\i\f17 Весенняя полевая практика}{\i 
+\par <br><br>}{\f17 Основные технологии этой формы обучения приведены в разделе, посвященном программе практики.}{
+\par <br><br>
+\par <br><br>
+\par }\pard\plain \s27\qc\widctlpar\adjustright \b\i\lang1049\cgrid {<br><br>}{\f17 {\*\bkmkstart _Toc505148471}{\*\bkmkstart _Toc505484148}{\*\bkmkstart _Toc505484248}{\*\bkmkstart _Toc505485138}Второй уровень}{{\*\bkmkend _Toc505148471}{\*\bkmkend _Toc505484148}{\*\bkmkend _Toc505484248}{\*\bkmkend _Toc505485138}
+\par }\pard\plain \qj\fi720\widctlpar\adjustright \lang1049\cgrid {<br><br>}{\f17 На втором уровне применяются три главные формы обучения: беломорские экспедиции, самостоятельные исследовательские работы и лекционно-учебные занятия. }{
+\par <br><br>
+\par <br><br>}{\i\f17 Беломорские экспедиции}{\f17  (о статусе экспедиции и о ее работе см.  Устав Лаборатории в Приложении).}{\i 
+\par <br><br>}{\f17 Основной базой для проведения экспедиций является Кандалакшский природный заповедник. Работы на территории заповедника проводятся как на научных стационарах (Ряжков и Лувеньга), так и в условиях палаточных лагерей. Работа в заповедниках проводится на договорной основе, экспедициями осуществляются изучение морских беспозвоночных и растений, при этом в качестве отчета о проделанной за лето работе в библиотеку заповедника пересылаются самостоятельные исследовательские труды школьников. }{
+\par <br><br>}{\f17 Вся работа в экспедиции осуществляется на полном самообеспечении, что позволяет ребятам освоить целый комплекс навыков: от приготовления пищи до бухгалтерского учета и судовождения.}{
+\par <br><br>}{\f17 Обучение специальным навыкам в области гидробиологии осуществляется во время ежедневной разборки проб}{\lang1033 .}{\lang1033 
+\par <br><br>
+\par <br><br>}{\f17  Основные технологические приемы при выполнении }{\i\f17 самостоятельных исследовательских работ}{\f17 , которые применяются в Лаборатории при осуществлении этой формы обучения, описаны в методическом пособии Е. А. Нинбурга (2000).}{
+\par <br><br>
+\par <br><br>}{\i\f17 Учебно-лекционные занятия}{\f17  проходят по тому же плану, что и при проведении аналогичных занятий при прохождении первого уровня программы.}{
+\par <br><br>
+\par <br><br>}{\f17 Помимо трех главных форм обучения, применяемых при прохождении второго уровня образовательной программы, в Лаборатории применяется еще ряд других форм обучения.}{
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec\pnstart1\pnindent-720 {\pntxta .}}\ls12\adjustright {<br><br> }{\i\f17 Семинары}{\f17 , на которых происходит защита самостоятельных работ учащихся (см. Устав Лаборатории).}{
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 2.\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec\pnstart1\pnindent-720 {\pntxta .}}\ls13\adjustright {<br><br> }{\i\f17 Экскурсии}{\f17 . Старшие ребята принимают участие в экскурсиях вместе с младшими. }{
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 3.\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec\pnstart1\pnindent-720 {\pntxta .}}\ls14\adjustright {<br><br>}{\f17  Старшие школьники проводят }{\i\f17 занятия в музее }{\f17 экологии моря с младшими, что позволяет у первых выработать навыки педагогической деятельности. }{
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 4.\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlbody\ilvl0\ls15\pnrnot0\pndec\pnstart1\pnindent-720 {\pntxta .}}\ls15\adjustright {<br><br>}{\f17  Участие в разнообразных }{\i\f17 конференциях}{\f17  (как в школьных, так и во взрослых, в том числе и в международных симпозиумах).}{
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 5.\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlbody\ilvl0\ls16\pnrnot0\pndec\pnstart1\pnindent-720 {\pntxta .}}\ls16\adjustright {<br><br> }{\i\f17 Подготовка работ к публикации}{\f17  в научной периодике.}{
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 6.\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlbody\ilvl0\ls17\pnrnot0\pndec\pnstart1\pnindent-720 {\pntxta .}}\ls17\adjustright {<br><br> }{\i\f17 Участие в олимпиадах и конкурсах}{.
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 7.\tab}}\pard \qj\fi720\widctlpar{\*\pn \pnlvlbody\ilvl0\ls18\pnrnot0\pndec\pnstart1\pnindent-720 {\pntxta .}}\ls18\adjustright {<br><br>}{\f17  Выполнение работ по }{\i\f17 созданию экспозиций в музее}{\f17  экологии моря.}{
+\par }\pard \qj\widctlpar\adjustright {<br><br>
+\par }\pard\plain \s16\qc\widctlpar\adjustright \b\fs36\lang1049\cgrid {<br><br>}{\f17 {\*\bkmkstart _Toc505148473}{\*\bkmkstart _Toc505484150}Содержание образовательной программы}{{\*\bkmkend _Toc505148473}{\*\bkmkend _Toc505484150} 
+\par }\pard \s16\qc\widctlpar\adjustright {<br><br>}{\f17 {\*\bkmkstart _Toc505148474}{\*\bkmkstart _Toc505484151}и временной план ее реализации}{{\*\bkmkend _Toc505148474}{\*\bkmkend _Toc505484151}
+\par }\pard\plain \qc\fi720\widctlpar\adjustright \lang1049\cgrid {<br><br>
+\par }\pard\plain \s26\qc\widctlpar\adjustright \b\lang1049\cgrid {<br><br>}{\f17\fs32 {\*\bkmkstart _Toc505148475}{\*\bkmkstart _Toc505484152}{\*\bkmkstart _Toc505484250}{\*\bkmkstart _Toc505485140}Первый уровень}{{\*\bkmkend _Toc505148475}{\*\bkmkend _Toc505484152}{\*\bkmkend _Toc505484250}{\*\bkmkend _Toc505485140} 
+\par }\pard\plain \qj\widctlpar\adjustright \lang1049\cgrid {<br><br>
+\par }\pard\plain \s27\qc\widctlpar\adjustright \b\i\lang1049\cgrid {<br><br>}{\f17 {\*\bkmkstart _Toc505148476}{\*\bkmkstart _Toc505484153}{\*\bkmkstart _Toc505484251}{\*\bkmkstart _Toc505485141}Лекционно-практический блок}{{\*\bkmkend _Toc505148476}{\*\bkmkend _Toc505484153}{\*\bkmkend _Toc505484251}{\*\bkmkend _Toc505485141} 
+\par }\pard\plain \qc\widctlpar\adjustright \lang1049\cgrid {<br><br>
+\par <br><br>}{\i\f17 Раздел:}{ }{\b\f17 “Цель и методы научного познания мира”}{
+\par }\pard \qj\widctlpar\adjustright {<br><br>
+\par <br><br> }{\i\f17 Тема: }{\b\f17 История и формирование биологии как науки.}{\f17  (2 часа)}{
+\par <br><br>}{\f17 Способы познания мира: религия, искусство, наука. Методы науки: анализ и синтез. Место биологии в общей системе наук. Научные представления о живом. Что такое жизнь.}{
+\par <br><br>
+\par }\pard \qc\widctlpar\adjustright {<br><br>}{\i\f17  Раздел:}{\b\i  }{\b\f17 ”Биология клетки с основами микробиологии и вирусологии”}{
+\par }\pard \qj\widctlpar\adjustright {<br><br>
+\par <br><br>}{\f17  Тема: }{\b\f17 Строение клетки.}{\f17  (4 часа)}{
+\par <br><br>}{\f17  Клеточная мембрана. Транспорт веществ через мембрану. Эндоцитоз и экзоцитоз. Функции мембраны. Цитоплазма и органоиды. Мембранные органоиды: эндоплазматическая сеть, аппарат Гольджи, вакуоли. Ядро. Обмен веществ в клетке: лизосомы, пищеварительная вакуоль. Энергетика клетки: митохондрии.}{\lang1033 
+\par <br><br>}{
+\par <br><br>}{\i\f17  Практическое занятие}{\f17  (2 часа) : Знакомство с устройством микроскопа и историей микроскопирования. Приготовление препаратов окрашенных клеток. Рисование с препарата.}{
+\par <br><br>
+\par <br><br>}{\i\f17  Тема: }{\b\f17 Принципы передачи наследственной информации.}{\f17  (2 часа)}{
+\par <br><br>}{\f17 Ядро как вместилище генетической информации. Общие представления о ДНК и способе кодирования генетической информации. Деление клетки. Хромосомы. Вирусы как простейшие системы, передающие генетическую информацию. Общие представления о синтезе белка в клетке: иРНК, рибосомы, аминокислоты.}{
+\par <br><br>
+\par <br><br>}{\i\f17  Тема: }{\b\f17 Многообразие клеток.}{\f17  (4 часа)}{
+\par <br><br>}{\f17 Бактерии строение и образ жизни, значение в жизни человека. Отличия бактериальной и эукариотической клетки. Клетки растений, грибов и животных: клеточная стенка, вакуоли, пластиды. Различия в способах питания. Различия в способах размножения клеток.}{
+\par <br><br>
+\par <br><br>}{\i\f17 Практическое занятие }{\f17 (2 часа) : Приготовление препаратов бактерий, зарисовка.}{
+\par <br><br>
+\par <br><br>
+\par }\pard \qc\widctlpar\adjustright {<br><br> }{\i\f17 Раздел:}{\b\i  }{\b\f17 “Зоология беспозвоночных”}{.
+\par }\pard \qj\widctlpar\adjustright {<br><br>
+\par <br><br>}{\i\f17  Тема: }{\b\f17 Основные принципы систематики.}{\f17  (2 часа)}{
+\par <br><br>}{\f17 Для чего нужна биологическая систематика. Понятие таксона. Иерархическое соподчинение таксонов. Правила наименования таксонов, построение латинских названий и правила их чтения. Ранги таксонов: империя, надцарства, царства, типы, классы, отряды, семейства, роды, виды. Бинарная номенклатура видов.}{
+\par <br><br>
+\par <br><br>}{\i\f17 Тема: }{\b\f17 Общая характеристика высших таксонов органического мира.}{\f17 (4 часа)}{
+\par <br><br>}{\f17 Растения: описание основных отделов (Chlorophyta, Phaeophyta, Rhodophyta, Bacillariophyta). Грибы: описание основных групп (Oomyceta, Ascomyceta, Basidiomyceta). Лишайники. Протисты. Животные. Принципы выделения царств.}{
+\par <br><br>
+\par <br><br>}{\i\f17 Тема:}{ }{\b\f17 Простейшие.}{\f17  (8 часов)}{
+\par <br><br>}{\f17 История открытия простейших, организация клетки простейших. Клетка простейших должна решать проблемы целостного организма. Основные типы простейших. Тип Sarcomastigophora: амебоидная и жгутиковая организация клетки, их взаимопревращение. Амебоидное движение. Жгутиковое движение, строение жгутика. Питание амебоидной и жгутиковой клетки. Тип Sporozoa. Жизненный цикл. Представление о чередовании поколений. Жизненные циклы возбудителей опасных болезней человека (малярийный плазмодий, таксоплазма). Тип Ciliata. Строение клетки инфузорий. Постоянство внутриклеточных конструкций (клеточный рот, движение пищеварительных вакуолей работа сократительной вакуоли). Ядерный дуализм. Размножение инфузорий: деление, коньюгация. Разнообразие инфузорий.}{
+\par <br><br>
+\par <br><br>}{\i\f17 Практические занятия }{\f17 (4 часа): Первое занятие: микроскопирование воды из аквариума. Второе занятие: наблюдения за инфузориями и работой некоторых органоидов, зарисовка препаратов.}{
+\par <br><br>
+\par <br><br>}{\i\f17 Тема}{: }{\b\f17 Происхождение многоклеточности.}{\f17  (2 часа)}{
+\par <br><br>}{\f17 Варианты многоклеточных образований среди простейших. Отличие организации многоклеточного организма от многоклеточных простейших. Теории происхождения многоклеточности: теория “Гастреи”, теория “Фагоцителлы”. Организация представителей типа Placozoa, как наиболее примитивных многоклеточных животных.}{
+\par <br><br>
+\par <br><br>
+\par <br><br>}{\i\f17 Тема:}{ }{\b\f17 Тип Губки (Spongia). }{\f17 (2 часа)}{
+\par <br><br>}{\f17 Клеточные элементы губок: хоаноциты, пинакоциты, склеробласты, колленциты, археоциты. Клеточные слои: хоанодерма, пинакодерма, мезохил. Скелет губок. Парагастральная полость. Три типа организации тела губок: аскон, сикон, лейкон. Половое размножение губок: образование личинки амфибластулы, “животные вывернутые наизнанку”. Бесполое размножение: почкование, гемулы. Роль губок в донных сообществах.}{
+\par <br><br>}{\i\f17 Практическое занятие }{\f17 (2 часа): Приготовление препаратов спикул. Изучение препарата гемул. Зарисовка препаратов.}{
+\par <br><br>
+\par <br><br>}{\i\f17 Тема:}{ }{\b\f17 Тип кишечнополостные (Coelenterata)}{\f17  и }{\b\f17 Тип Гребневики (Ctenophora)}{. (4 }{\f17 часа)}{
+\par <br><br>}{\f17 Теория зародышевых листков. Эктодерма и энтодерма. Что такое симметрия. Радиальная симметрия. Организация тела кишечнополостных, клеточные элементы. Жизненный цикл представителей разных классов. Организация колоний разных кишечнополостных. Тип гребневики: двулучевая симметрия, строение тела и клеточные элементы.}{
+\par <br><br>}{\lang1033 
+\par <br><br>}{\i\f17 Практическое занятие }{\f17 (2 часа): Изучение строения полипа и медузы. Зарисовка.}{
+\par <br><br>
+\par <br><br>}{\i\f17 Тема:}{ }{\b\f17 Тип плоские черви (Plathelmintes) }{\f17 и }{\b\f17 тип Немертины (Nemertini)}{\f17 . (6 часов)}{
+\par <br><br>}{\f17 Тип плоские черви морфология, анатомия и основные классы (Turbellaria, Trematoda, Cestoda). Билатеральная симметрия. Паренхиматозный тип организации. Покровы тела у разных представителей типа: ресничный эпителий, синцитий, погруженный эпителий. Внутренне строение: нервная, пищеварительная, выделительная и половая системы у разных представителей типа. Особенности организации и биологии представителей паразитических классов. Жизненные циклы паразтических плоских червей. Тип Немертины: формирование кровеносной системы на паренхиматозном уровне организации. Образ жизни немертин.}{
+\par <br><br> }{\lang1033 
+\par <br><br>}{\i\f17 Практическое занятие }{\f17 (2 часа): Изучение тотального препарата представителей типа. Зарисовка препарата.}{
+\par <br><br>
+\par <br><br>}{\i\f17 Тема:}{ }{\b\f17 Тип Круглые черви (Nematoda)}{\f17  и }{\b\f17 тип Скребни (Acanthocephales)}{\f17 . (2 часа)}{
+\par <br><br>}{\f17 Единообразие строения нематод. Строение и функции покровов. Внутреннее строение: особенности мышечного аппарата, шизоцель, выделительная, пищеварительная и половая системы. Развитие. Значение в жизни человека. Скребни: прикрепительный аппарат, внутреннее строение и образ жизни.}{
+\par <br><br>}{\lang1033 
+\par <br><br>}{\i\f17 Практическое занятие }{\f17 (2 часа): Вскрытие аскариды. Зарисовка.}{
+\par <br><br>
+\par <br><br>
+\par <br><br>}{\i\f17 Тема: }{\b\f17 Основы паразитологии.}{\f17  (6 часов)}{
+\par <br><br>}{\f17 Что такое паразитизм? Паразиты, как особая экологическая группа организмов. Задачи стоящие перед паразитом. Сходство решений в разных таксономических группах. Отношения между паразитом и хозяином. Как паразит заставляет хозяина “работать” на себя. Представления о природной очаговости паразитарных заболеваний. Меры предупреждения паразитарных заболеваний.}{
+\par <br><br>
+\par <br><br>}{\i\f17 Тема:}{ }{\b\f17 Класс Гастротрихи (Gastrotricha)}{, }{\b\f17 Тип Головохоботные (Cephalorhyncha) и особенности экологии интерстициальной фауны }{\f17 (2 часа)}{
+\par <br><br>}{\f17 Гастротрихи: кутикула, внутреннее строение, образ жизни. Головохоботные (Priapulida, Kinorhyncha): строение кутикула, внутреннее строение, образ жизни. Особенности жизни в интерстициали, сходство внешнего облика интерстициальных животных.}{
+\par <br><br>
+\par <br><br>}{\i\f17 Тема:}{ }{\b\f17 Кольчатые черви (Anneli}{\b da)}{\f17 . (6 часов)}{
+\par <br><br>}{\f17 Основные группы кольчатых червей: Polychaeta, Oligohaeta, Hyrudinea. Метамерия. Что такое вторичная полость тела? Внешнее строение полихет: параподии, головная лопость и ее придатки, различия в строении Сидячих и Бродячих полихет. Внутреннее строение полихет: организация покровов, мышечная система, целом, нервная, пищеварительная и половая система. Размножение полихет: половое и бесполое. Развитие полихет. Строение личинки трохофоры. Образование метамерного тела. Отличительные особенности внешнего и внутреннего строения олигохет и пьявок: олигомеризация гомологичных органов, преобразование целома, выход в пресные воды и на сушу.}{
+\par <br><br>}{\i 
+\par <br><br>}{\i\f17 Практическое занятие }{\f17 (2 часа): Вскрытие дождевого червя. Зарисовка.}{
+\par <br><br>
+\par <br><br>}{\i\f17 Тема: }{\b\f17 Тип Членистоногие (Arthropoda).}{\f17 (14 часов)}{
+\par <br><br>
+\par <br><br>}{\f17 Основные подтипы членистоногих: трилобитообразные (Trilobitimorpha), хелицеровые (Chelicerata), жабродышащие (Branchjгiata). Общая характеристика типа членистоногих, гетерономное расчленение тела, понятие тагмы, голова, грудь, брюшко. Внутреннее строение членистоногих, организация мышечной, нервной, пищеварительной, дыхательноцй выделительной и половой систем. Строение трилобитов, принципы палеонтологических реконструкций, время и образ жизни трилобитов. Хелицеровые древнейшие из ныне живущих членистоногих. Внешние строение хелицеровых. Основные группы хелицеровых, особенности их строения и биологии: Мечехвосты, Ракоскорпионы и Паукообразные. Ракообразные: особенности тагмозиса. Двуветвистая конечность. Развитие ракообразных. Внутреннее строение. Морские, пресноводные и наземные формы. Насекомые: особенности тагмозиса. Внутреннее строение насекомых. Строение конечности. Строение ротового аппарата. Строение и происхождение крыла. Развитие насекомых: формы с неполным и полным превращением. Основные отряды насекомых и особенности их биологии. Многоножки: особенности тагмозиса. Ротовой аппарат многоножек. Развитие многоножек.}{
+\par <br><br>
+\par <br><br>}{\i\f17 Практические занятия }{\f17 (6 часов): Занятие первое: Внешние строение различных хелицеровых. Зарисовка. Занятие второе: внешнее строение различных ракообразных. Зарисовка. Занятие третье: Внешнее строение насекомого, организация конечностей и ротового аппарата. Зарисовка.}{
+\par <br><br>
+\par <br><br>}{\i\f17 Тема:}{ }{\b\f17 Тип Моллюски (Mollusca).}{\f17  (4 часа)}{
+\par <br><br>}{\f17 Основные группы моллюсков: Панцирные (Loricata), моноплакофоры (Monoplacophora), брюхоногие (Gastropoda), двустворчатые (Bivalvia), головоногие (Cephalopoda). Внешняя морфология и внутреннее строение моллюсков. Раковина, голова, нога, внутреносный мешок, жабры. Особенности мышечной, нервной, пишеварительной, выделительной, дыхательной и половой систем. Биология моллюсков и значение их в природных сообществах и в жизни человека. Марикультура}{
+\par <br><br>
+\par <br><br>}{\i\f17 Практическое занятие }{\f17 (2 часа) : зарисовка представителей различных классов моллюсков.}{
+\par <br><br>
+\par <br><br>}{\i\f17 Тема:}{ }{\b\f17 Тип Иглокожие (Echinodermata). }{\f17 (4 часа)}{
+\par <br><br>}{\f17 Основные группы иглокожих: Holoturoidea, Asteroidea, Echinoidea, Ophiuroidea. Строение морских звезд. Строение морских ежей. Строение голотурий. В чем сходство и различие разных групп иглокожих? Пяти лучевая симметрия. Происхождение пяти лучевой симметрии. Сходные черты в развитии разных иглокожих. Строение личинок в разных группах иглокожих. Происхождение вторичноротых.}{
+\par <br><br>
+\par <br><br>}{\i\f17 Практическое занятие }{\f17 (2 часа) : вскрытие морской звезды. Зарисовка.}{
+\par <br><br>
+\par <br><br>}{\i\f17 Тема: }{\b\f17 Тип Щупальцевые (Tentaculata). }{\f17 (4 часа)}{
+\par <br><br>}{\f17 Основные группы: Форониды, Мшанки, Плеченогие. Строение мшанок. Цистид и полипид. Колонии, форма колоний. Многообразие зооидов в пределах колонии. Размножение. Развитае мшанок. Особенности экологии мшанок, роль в сообществах обрастания, питание. Плеченогие. Строение и развитие плеченогих. Роль в донных сообществах.}{
+\par <br><br>
+\par <br><br> }{\i\f17 Тема:}{ }{\b\f17 Тип Хордовые (Chordata). }{\f17 (2 часа)}{
+\par <br><br>}{\f17 Основные группы хордовых: Оболочники, Бесчерепные, Позвоночные. Оболочники: строение туники, внутреннее строение. Развитие оболочников.}{
+\par <br><br>
+\par <br><br>}{\i\f17 Тема:}{ }{\b\f17 Направления эволюции беспозвоночных (обобщение пройденного)}{\b  }{\f17 (6 часов)}{
+\par <br><br>}{\f17 Понятие плана строения. Понятие преобразования плана строения. Планы строения основных макротаксонов. Преобразование планов строения и пути эволюции многоклеточных животных. Макросистема царства животных.}{
+\par <br><br>
+\par <br><br>
+\par }\pard \qc\widctlpar\adjustright {<br><br>}{\i\f17 Раздел}{: }{\b\f17 Животные и растения Ленинградской области}{
+\par }\pard \qj\widctlpar\adjustright {<br><br>
+\par <br><br>}{\i\f17 Тема: }{\b\f17 Основные биотопы Ленинградской области }{\f17 (8 часов)}{
+\par <br><br>}{\f17 Понятие биотопа, описание различных биотопов и их особенностей, население биотопов, основные составляющие биотопа, понятие рельеф местности, формирование рельефа, геологические процессы, геологическая деятельность ледников, образование торфа.}{
+\par <br><br>
+\par <br><br>}{\i\f17 Тема:}{ }{\b\f17 Основные приемы работы с определителем, определение животных по определителю }{\f17 (16 часов практических занятий)}{
+\par <br><br>}{\f17 Строение определителя, понятия: теза и антитеза, умение пользоваться ключом определителя, определение животных и растений из приведенного в приложении списка.}{
+\par <br><br>
+\par <br><br>}{\f17 Прочие темы этого раздела подробнее разбираются в программе весенней полевой практики, приведенной ниже.}{
+\par <br><br>
+\par }\pard \qc\widctlpar\adjustright {<br><br>}{\i 
+\par <br><br>}{\i\f17 Раздел:}{ }{\b\f17 Начальная туристическая подготовка}{
+\par }\pard \qj\widctlpar\adjustright {<br><br>
+\par <br><br>}{\i\f17 Тема: }{\b\f17 Правила техники безопасности и оказание первой медицинской помощи}{\f17 . (2 часа).}{
+\par <br><br>}{\f17 Правила техники безопасности в лаборатории, в транспорте, на экскурсии, личная гигиена в полевых условиях, экстренная помощь, при переломах, вывихах, ожогах, кровотечениях.}{
+\par <br><br>
+\par <br><br>}{\f17 Прочие темы этого раздела подробнее разбираются в программе весенней полевой практики, приведенной ниже.}{
+\par }\pard \qj\fi720\widctlpar\adjustright {<br><br>
+\par <br><br>
+\par }\pard\plain \s27\qc\widctlpar\adjustright \b\i\lang1049\cgrid {<br><br>}{\f17 {\*\bkmkstart _Toc505148477}{\*\bkmkstart _Toc505484154}{\*\bkmkstart _Toc505484252}{\*\bkmkstart _Toc505485142}Программа экскурсионного блока}{{\*\bkmkend _Toc505148477}{\*\bkmkend _Toc505484154}{\*\bkmkend _Toc505484252}{\*\bkmkend _Toc505485142} 
+\par }\pard\plain \qc\widctlpar\adjustright \lang1049\cgrid {<br><br>}{\f17 (72 часа)}{
+\par }\pard \qj\widctlpar\adjustright {<br><br>}{\f17  \tab Во время экскурсионных занятий разрабатывается тематика основных вышеописанных разделов. Пойманные и увиденные на экскурсиях беспозвоночные животные могут использоваться как иллюстративный материал по разделу “Зоология беспозвоночных”. Большинство увиденных и определенных животных предлагается учащимся к запоминанию. Длительные переходы по пересеченной местности развивают определенные навыки начальной туристической подготовки. Особое внимание уделяется эстетическому воспитанию учащихся, и бережному отношению к природе.}{
+\par <br><br>}{\f17  \tab Основная экскурсионная программа сконцентрирована во время весенней полевой практики, и их тематика изложена в “программе весенней полевой практики”. Здесь же будут описаны лишь однодневные экскурсии который проводятся в выходные дни и каникулы в ближайшие окрестности г. Санкт-Петербурга.}{
+\par <br><br>}{\f17  \tab На экскурсиях в район Старого Петергофа, Стрельны, Комарово, Линдуловской рощи и в парки Санкт-Петербурга основное внимание уделяется населению пресноводных водоемов и представителям растительного мира.. Экскурсии в эти места проводятся дважды в году для демонстрации фенологических изменений.}{
+\par <br><br>}{\f17  \tab На экскурсии в район р.Лавы помимо знакомства с населением реки проводится знакомство с геологическими обнажениями и ископаемыми животными. Здесь проводится небольшой рассказ об истории Земли и методах ее изучения.}{
+\par <br><br>}{\f17  \tab На экскурсии на Воронью горку проводится знакомство с первоцветами, которые здесь зацветают на несколько недель раньше чем в остальных районах области. Кроме того проводится рассказ о геологической истории этой местности и о реликтовых широколиственных породах, сосредоточенных здесь.}{
+\par }\pard \qj\fi720\widctlpar\adjustright {<br><br>
+\par }\pard \qc\widctlpar\adjustright {<br><br>}{\b\fs28 
+\par }\pard\plain \s27\qc\widctlpar\adjustright \b\i\lang1049\cgrid {\b0\fs28 <br><br>}{\f17 {\*\bkmkstart _Toc505148478}{\*\bkmkstart _Toc505484155}{\*\bkmkstart _Toc505484253}{\*\bkmkstart _Toc505485143}Программа весенней полевой практики}{{\*\bkmkend _Toc505148478}{\*\bkmkend _Toc505484155}{\*\bkmkend _Toc505484253}{\*\bkmkend _Toc505485143}
+\par }\pard\plain \qc\widctlpar\adjustright \lang1049\cgrid {<br><br>}{\f17 (80 часов)}{
+\par }\pard \qj\widctlpar\adjustright {<br><br>
+\par }\pard \qc\widctlpar\adjustright {<br><br>}{\b\f17 Цели и задачи полевой практики}{
+\par }\pard \qj\widctlpar\adjustright {<br><br>}{\f17  \tab У весенней полевой практики, которая проводится в течении двух многодневных выездов в первой декаде мая - две основные задачи. Первая - познакомить школьников с основными туристскими навыками (начальная туристская подготовка). Вторая - дать им самое общее представление об окружающей природе, причем представление комплексное. Практика проводится для Лаборатории ботаники, Лаборатории экологии морского бентоса (гидробиологии), кружка энтомологии (вполне возможно расширение круга детских коллективов). В то же время она не предусматривает жесткой специализации - каждый кружковец должен знать самый обычный круг объектов независимо от специализации своего кружка.}{
+\par <br><br>}{\f17  \tab Практика предназначена прежде всего для кружковцев первого года обучения, но при ее проведении активную роль играют кружковцы старших групп. Практика проходит в традиционном месте - в окрестностях дер. Ящера (Лужский район). Выбор места и его постоянное использование были обусловлены несколькими причинами. Во-первых, удобство положения базы относительно железной дороги. Во-вторых, большое разнообразие биотопов: болота, старицы, реки (Луга и Ящера), поймы, разнообразные типы леса. Последнее особенно важно, так как позволяет построить практику по комплексному принципу, т. е. обучение разным дисциплинам (орнитологии, энтомологии, гидробиологии, геоботанике, флористике) в период одного выезда. И, наконец, третья причина - это совместная работа разных лабораторий и кружков отдела Биологии (ботаника, энтомология, гидробиология) в один и тот же период. Кроме того, каждый год на период проведения практики к работе с юннатами привлекаются специалисты из академических институтов (ЗИН, БИН) и Университета.}{
+\par <br><br> \tab 
+\par }\pard \qc\widctlpar\adjustright {<br><br> }{\i\f17 Раздел:}{ }{\b\f17 Начальная туристская подготовка (НТП)}{
+\par }\pard \qj\widctlpar\adjustright {<br><br>
+\par <br><br>}{\i\f17 Тема: }{\f17 Обучения приемам подготовки и сбора полевого оборудования. (2 часа)}{
+\par <br><br> }{\i\f17 Тема: }{\f17 Обучение правилам передвижения группы на маршруте по пересеченной местности, ориентирование. (5 часов)}{
+\par <br><br> }{\i\f17 Тема:}{ }{\f17 Оборудование палаточного лагеря и кострища. (8 часов)}{
+\par <br><br> }{\i\f17 Тема:}{\i\lang1033  }{\f17 Обучение приемам жизнеобеспечения в полевых условиях (приготовление пищи, заготовка дров и т.п.). ( 4 часа)}{
+\par <br><br> }{\i\f17 Тема:}{ }{\f17 Некоторые специальные навыки необходимые в экспедициях (правила и техника вязки морских узлов, устройство переправ, страховок и т. д.) (5 часов).}{
+\par <br><br>
+\par <br><br>
+\par }\pard \qc\widctlpar\adjustright {<br><br> }{\i\f17 Раздел:}{ }{\b\f17 Животный и растительный мир Ленинградской области}{
+\par }\pard \qj\widctlpar\adjustright {<br><br>
+\par <br><br>}{\i\f17 Тема:}{ }{\f17 Знакомство с основными ландшафтами, представленными в районе проведения практики (лес, луг, пойма, болота, водоемы). (6 часов)}{
+\par <br><br> }{\i\f17 Тема:}{ }{\f17 Приемы сбора материала. (4 часа)}{
+\par <br><br> }{\i\f17 Тема:}{ }{\f17 Изучение населения водоемов (луж, стариц и рек). (10 часов)}{
+\par <br><br> }{\i\f17 Тема:}{ }{\f17 Изучение населения почвы. (4 часа)}{
+\par <br><br> }{\i\f17 Тема:}{\f17  Знакомство с наиболее распространенными насекомыми и следами их жизнедеятельности (биоповреждения). (6 часов)}{
+\par <br><br> }{\i\f17 Тема:}{\f17  Приобретение навыков в наблюдении за птицами и распознавания их голосов. (8 часов)}{
+\par <br><br> }{\i\f17 Тема:}{\f17  Знакомство с местной флорой. (6 часов)}{
+\par <br><br> }{\i\f17 Тема:}{\f17  Обзор основных растительных сообществ. (4 часа)}{\lang1033 
+\par <br><br>
+\par }\pard \qc\widctlpar\adjustright {\lang1033 <br><br>}{ }{\b\i\f17 Организация учебного процесса}{
+\par }\pard \qj\widctlpar\adjustright {<br><br>}{\f17  \tab 1. Практика проводится в условиях палаточного лагеря. Все хозяйственные работы по жизнеобеспечению проводятся силами ребят. Во время проведения подобных работ кружковцы старших групп (члены лаборатории) помогают новичкам и обучают их. Члены лаборатории принимают активное участие в подготовке и проведении экскурсий.}{
+\par <br><br>
+\par <br><br>}{\f17  \tab 2. Основными формами проведения учебных занятий являются экскурсии и практические занятия. При этом ребята разбиваются на несколько групп (не более 6 человек в каждой) и для каждой группы проводятся экскурсии по тем или иным темам в соответствии с планом, который принимается ежедневно на совете педагогов всех лабораторий.}{
+\par <br><br>}{\f17  \tab 2.1. Экскурсии бывают двух типов: обзорные, на которых происходит общее знакомство с местом проведения практики, его ландшафтами, топонимикой и правилами природопользования и специальные, на которых идет непосредственное знакомство с объектами (список объектов приведен в приложении).}{
+\par <br><br>}{\f17  \tab 2.2. На экскурсиях проводится главным образом сбор объектов и краткий рассказ о них. При этом большое внимание уделяется правилам документации научных наблюдений (ведение полевого дневника). Собранные на экскурсиях объекты приносятся в лагерь. При сборе материала особое внимание детей уделяется тем объектам, которые занесены в Красную книгу и не подлежат сбору.}{
+\par <br><br>}{\f17  \tab 2.3. После экскурсий, когда накопилось определенное количество материала, проводятся лекционные занятия. Главным образом проводятся лекции по зоологии беспозвоночных и ботанике.}{
+\par <br><br>}{\f17  \tab 2.4. В учебном блоке НТП помимо чисто практических занятий предусмотрены также лекционные занятия, главным образом посвященные использованию морских узлов, необходимых в экспедициях.}{
+\par <br><br>}{\f17 \tab 2.5 Для более успешного запоминания объектов участникам практики раздаются списки видов животных и растений. От учащихся требуется знание как русских так и латинских названий большинства организмов.}{
+\par <br><br>
+\par <br><br>}{\f17  \tab 3. В последний день практики проводится комплексный зачет по всем направлениям обучения. При этом зачет проводится в игровой форме. Каждому юннату выдается список из трех вопросов по трем темам: НТП, Зоология, Ботаника (примеры подобных вопросов приведены в Приложении). К зачету детям выдаются списки объектов необходимых для запоминания. В проведении зачета принимают активное участие члены лаборатории.}{
+\par <br><br>
+\par <br><br>
+\par }\pard \qc\widctlpar\adjustright {<br><br> }{\b\i\f17 Порядок проведения практики}{
+\par }\pard \qj\widctlpar\adjustright {<br><br> \tab }{\i\f17\ul Первый этап}{\i :}{\f17  подготовительный. \tab В городе проводятся занятия по технике безопасности. Даются советы по экипировке. Обязательно проводится родительское собрание.}{
+\par <br><br> \tab }{\i\f17\ul Второй этап}{\i :}{\f17  Прибытие и организация лагеря. Еще на платформе Толмачево ученикам объясняются правила передвижения группы по населенным пунктам (пос. Толмачево и Живой ручей) и по лесу. Там же проводится дополнительный контроль личного снаряжения. При передвижении группы ее авангард и арьергард составляют старшие ребята. По прибытии на место производится постановка палаток и расселение ребят (в каждой палатке назначается старший из числа членов лаборатории). После этого проводится заготовка воды и дров. Далее составляется график дежурства. При этом дежурят обычно по три человека из числа новичков, но в качестве консультанта каждой паре выделяется кто-нибудь из членов лаборатории, который не должен принимать непосредственное участие в дежурстве.}{
+\par <br><br> \tab }{\i\f17\ul Третий этап}{\i :}{\f17  Учебный процесс. Обычно экскурсии начинаются в 10 часов, после завтрака и мытья посуды. И в течение всего светового дня, за исключением времени хоз. работ, учащиеся заняты на экскурсиях и лекциях. Вечером, после ужина, проводятся устные игры и беседы на общие темы.}{
+\par <br><br> \tab }{\i\f17\ul Четвертый этап}{\i :}{\f17  Завершение учебного процесса и отъезд. В последний день практики проводится зачет. После зачета проходит сбор оборудования и приведение территории лагеря в порядок. Особо важным моментом является приведение оборудования в порядок уже в городе, что прививает ученикам чувство ответственности за лабораторное имущество.}{
+\par }\pard \qj\fi720\widctlpar\adjustright {<br><br>}{\lang1033 
+\par <br><br>}{\f17 Некоторые важные материалы, необходимые для проведения практики приведены в \ldblquote Приложении\rdblquote .}{
+\par }\pard\plain \s26\qc\widctlpar\adjustright \b\lang1049\cgrid {<br><br>{\*\bkmkstart _Toc505148479}{\*\bkmkstart _Toc505484156}{\*\bkmkstart _Toc505484254}
+\par }\pard \s26\qc\widctlpar\adjustright {<br><br>
+\par <br><br>}{\f17\fs32 {\*\bkmkstart _Toc505485144}Второй уровень}{{\*\bkmkend _Toc505148479}{\*\bkmkend _Toc505484156}{\*\bkmkend _Toc505484254}{\*\bkmkend _Toc505485144}
+\par <br><br>
+\par }\pard\plain \s27\qc\widctlpar\adjustright \b\i\lang1049\cgrid {<br><br>}{\f17 {\*\bkmkstart _Toc505148480}{\*\bkmkstart _Toc505484157}{\*\bkmkstart _Toc505484255}{\*\bkmkstart _Toc505485145}Научно исследовательская программа}{{\*\bkmkend _Toc505148480}{\*\bkmkend _Toc505484157}{\*\bkmkend _Toc505484255}{\*\bkmkend _Toc505485145} 
+\par }\pard\plain \qc\widctlpar\adjustright \lang1049\cgrid {<br><br>}{\b\f17 II-IV год обучения }{\f17 (134 часа)}{\b 
+\par }\pard \qj\widctlpar\adjustright {\b <br><br>}{
+\par <br><br>}{\f17  \tab Для школьников, приступивших к освоению второго уровня программы, около половины учебного времени отводится на выполнение самостоятельных научно-исследовательских работ. Выполнение тем обеспечивается также и тем, что учащиеся могут приходить в лабораторию в любое время, когда она открыта. Основная форма работы - индивидуальные занятия школьников с руководителями, выпускниками, специалистами. При этом предусматривается полный отказ при работе со старшими от поурочно-группового метода работы и переход на лабораторные принципы работы. В перспективе это должно привести к отказу от традиционной системы отчетности учителя (классный журнал) и переход на другую (журнал лабораторных работ, где указывается, кто в данный день работал в лаборатории; форму такого журнала еще предстоит разработать).}{
+\par <br><br>
+\par }\pard \qc\widctlpar\adjustright {<br><br>}{\b\i\f17 Основные направления  научно-исследовательской работы ЛЭМБ в беломорских экспедициях и в самостоятельных работах учащихся (сублиторальная и литоральная группы)}{\b\i 
+\par <br><br>}{\i 
+\par }\pard \qj\widctlpar\adjustright {\i <br><br>}{\f17  \tab 1. Изучение видового состава и сообществ кутовой части Кандалакшского залива и окрестностей Соловецких островов. Описание аутоэкологии массовых видов бентоса этих районов. }{
+\par <br><br>}{\f17 \tab 2. Исследование структуры бентосных сообществ и, на основе этого, разработка методов их выделения, описания и картирования. }{
+\par <br><br>}{\f17 \tab 3. Изучение питания важнейших видов птиц, рыб и беспозвоночных Белого моря. Исследуется состав корма, сезонная и возрастная динамика, запасы кормовых животных и растений. }{
+\par <br><br>}{\f17 \tab 4. Проведение мониторинга популяций некоторых литоральных животных. }{
+\par <br><br>}{\f17 \tab 5. Проведение мониторинга биоценозов бентоса Илистой губы о. Горелого. Для популяций массовых видов животных учитываются размещение в пределах губы и демографические показатели. Для всех видов учитываются плотность и биомасса. }{
+\par <br><br>}{\f17 \tab 6. Изучение особенностей биоценозов мелководных губ Белого моря. }{
+\par <br><br>}{\f17 \tab 7. Изучение биообрастаний Белого моря. }{
+\par <br><br>}{\f17 \tab 8. На основе выполнения предыдущих пунктов - совершенствование и пополнение экспозиции Музея биологии моря. }{
+\par <br><br>}{\f17 \tab 9. Исследование состава и распределения флоры и фауны приливно-отливной зоны кутовой зоны Кандалакшского залива Белого моря, аутоэкология отдельных видов. }{
+\par <br><br>}{\f17 \tab 10. Сообщества инфауны: пространственная структура, межвидовые взаимоотношения. }{
+\par <br><br>}{\f17 \tab 11. Обрастания фукоидов и багрянок в прибрежной зоне (литораль, верхняя сублитораль). }{
+\par <br><br>}{\f17 \tab 12. Мониторинговые исследования литоральных сообществ и отдельнвых популяций на стандартном участке и по стандартной методике. }{
+\par <br><br>}{\f17 \tab 13. Исследование динамики и структуры популяций некоторых массовых видов литоральных беспозвоночных (Mytilus edulis, Littorina saxatilis, Macoma balthica, Hydrobia ulvae, H.ventrosa и др.). }{
+\par <br><br>}{\f17 \tab 14. Фауна и флора корг: пути формирования сообществ, и влияние на них абиотических факторов (соленость, прибойность, близость к открытому морю). }{
+\par <br><br>}{\f17 \tab 15. Изучение гидрологических условий литорали: механический и химический (органика) состав грунта, течения, микрорельеф (как фактор, влияющий на распределение животных и растений). }{
+\par <br><br>}{\f17 \tab 16. На основе выполнения предыдущих пунктов - совершенствование и пополнение экспозиции Музея биологии моря.}{
+\par <br><br> \tab 
+\par }\pard \qj\fi720\widctlpar\adjustright {<br><br>}{\f17 Выполнение работ по указанным направлениям ведется в контакте с Кандалакшским государственным заповедником, Соловецким историко -архитектурным и природным музеем-заповедником, Беломорской биологической станцией Московского государственного университета, Беломорской биологической станцией Зоологического института РАН фондом “Белое море”, кафедрой зоологии беспозвоночных Санкт-Петербургского государственного университета. }{
+\par <br><br>
+\par <br><br>
+\par }\pard\plain \s27\qc\widctlpar\adjustright \b\i\lang1049\cgrid {<br><br>}{\f17 {\*\bkmkstart _Toc505148481}{\*\bkmkstart _Toc505484158}{\*\bkmkstart _Toc505484256}{\*\bkmkstart _Toc505485146}Лекционно-учебный блок}{{\*\bkmkend _Toc505148481}{\*\bkmkend _Toc505484158}{\*\bkmkend _Toc505484256}{\*\bkmkend _Toc505485146}
+\par }\pard\plain \qc\widctlpar\adjustright \lang1049\cgrid {<br><br>}{\i 
+\par <br><br>}{\i\f17 Курс:}{ }{\b\f17 Методика сбора и обработки научного материала }{\f17 (40 час.)}{
+\par <br><br>
+\par }\pard \qj\widctlpar\adjustright {<br><br> \tab }{\b\f17 Наука как род человеческой деятельности.}{\f17  Роль научных исследований. Значение биологии в конце ХХ века. Понятие о фундаментальной и прикладной науке.}{
+\par <br><br> \tab }{\b\f17 Схема построения научного исследования.}{\f17  Постановка проблемы. Классификация задач, возникающих в биологических исследованиях. Методы биологии: наблюдение, эксперимент, моделирование. Выбор метода в зависимости от поставленной задачи.}{
+\par <br><br> \tab }{\b\f17 Форма записи первичных данных}{\f17  и требования, к ней предъявляемые.}{
+\par <br><br> \tab }{\b\f17 Обработка данных. }{\f17 Небходимость вероятностного подхода в биологии. Общее понятие о статистических и детерминативных закономерностях.}{
+\par <br><br> \tab }{\b\f17 Вариационная статистика.}{\f17  Основные понятия: варианта, выборка, генеральная совокупность. \tab Составление вариационного ряда. Характеристика выборочной совокупности (показатели уровня: мода, медиана, средняя арифметическая и средняя геометрическая). Способы вычисления, границы применения, биологический смысл этих величин. Основные требования к выборке (случайность и репрезентативность).}{ }{\f17 Способы табличного и графического представления данных. Показатели вариации (среднее квадратичное и коэффициент вариации). Способы их вычисления, границы применимости, биологический смысл.}{ }{\f17 Качественная и количественная изменчивость.}{
+\par <br><br> \tab }{\b\f17 Основные типы распределений.}{\f17  Оценка параметров генеральной совокупности по выборочным. Понятие статистической ошибки и ее отличие от погрешности измерений. Доверительный интервал и уровень значимости.}{
+\par <br><br> \tab }{\b\f17 Статистические сравнения.}{\f17  Понятие об ошибке разницы и ее оценка. Сравнения при качественной изменчивости. Сравнение эмпирических и теоретических распределений.}{
+\par <br><br> \tab }{\b\f17 Понятие о корреляции.}{\f17  Коэффициент корреляции, методы его расчета, границы применимости и биологический смысл. Измерение и оценка сопряженности качественных признаков.}{
+\par <br><br> \tab }{\b\f17 Понятие о регрессии и расчет линии регрессии}{\f17 . Эмпирическая и теоретическая линии регрессии. Метод свободной руки и скользящей средней при графическом изображении связи.}{
+\par <br><br> \tab }{\b\f17 Краткий обзор современных методов статистики}{\f17 . Понятие о мощности метода.}{
+\par <br><br> \tab }{\b\f17 Нестатистические методы в биологии и смежных науках}{\f17 . Коэффициенты сходства Жаккара, Серенсена и др. и показатели расстояния.}{
+\par <br><br> \tab }{\b\f17 Классификация и ординация}{\f17 . Простейшие методы кластерного анализа.}{
+\par <br><br> \tab }{\b\f17 Методы моделирования}{\f17 . Простейшие модели, их значение и использование (модели Мальтуса, Вольтерра-Лотки).}{
+\par <br><br> \tab }{\b\f17 Оформление научного материала }{\f17 (Отчет, статья). Важность стандартизации. Роль и особенности научного языка. Построение научной работы. Работа с литературой, стратегия поиска литературы по заданной теме. Понятие о каталогах, книжной летописи, РЖ и других справочных изданиях. Основы библиографии.}{
+\par <br><br>
+\par <br><br>
+\par }\pard \qc\widctlpar\adjustright {<br><br> }{\i\f17 Курс: }{\b\f17 Общая экология }{\f17 (40 час.)}{
+\par }\pard \qj\widctlpar\adjustright {<br><br> \tab }{\b\f17 Предмет и методы экологии}{\f17 . Определение экологии как науки. Аутоэкология, демэкология и синэкология.}{
+\par <br><br> \tab }{\b\f17 Экологический фактор и его действие}{\f17 . Понятие об ограничивающем факторе, закон Либиха. Классификация экологических факторов. Интегральные факторы.}{
+\par <br><br> \tab }{\b\f17 Понятие о популяции}{\f17 . Изучение стабильных популяций, оценка их благополучия. Демографические показатели (рождаемость, смертность, скорость эмиграции и иммиграции, половой и возрастной состав).}{
+\par <br><br> \tab }{\b\f17 Динамика популяций}{\f17 . Простая и сложная популяция. Модель неограниченного роста популяции. Ограниченный рост популяции.}{
+\par <br><br> \tab }{\b\f17 Взаимоотношения между популяциями}{\f17 : нейтрализм, комменсализм, мутуализм, конкуренция, хищничество, паразитизм. Модель Вольтерра -Лотки.}{
+\par <br><br> \tab }{\b\f17 Теория конкуренции}{\f17 . Понятие экологической ниши: представления Ю. Одума и Т.Хатчинсона. Теория конкуренции в свете представлений об экологической нише. Закон конкурентного вытеснения Гаузе и его действие в живой природе.}{
+\par <br><br> \tab }{\b\f17 Понятие экосистемы и биоценоза}{\f17 . Перенос энергии и вещества в экосистеме, пищевые цепи, экологическая пирамида. Продукция и продуктивность.}{
+\par <br><br> \tab }{\b\f17 Закономерности видового состава биоценозов}{\f17 . Проблема видового разнообразия. Классификация биоценозов, понятие об ассоциации как типе сообщества. Методы разграничения ассоциаций.}{
+\par <br><br> \tab }{\b\f17 Элементы структуры биоценоза}{\f17 : представление о консорциях и синузиях. Мозаичное и комплексное сложение сообществ.}{
+\par <br><br> \tab }{\b\f17 Сукцессия и ее закономерности}{. }{\f17 Первичная и вторичная сукцессия.}{ }{\f17 Антропогенная сукцессия.}{
+\par <br><br> \tab }{\b\f17 Ноосфера}{\f17 . Проблемы сохранения окружающей среды и рационального использования природных ресурсов. Охрана природы как прикладная отрасль экологии.}{
+\par <br><br>
+\par }\pard \qj\widctlpar\tx708\tx1416\tx2124\tx2832\tx3540\tx4248\tx4956\tx5664\tx6372\tx7080\tx7788\tx8496\tx9204\tx9912\tx10620\tx11328\tx12036\tx12744\tx13452\tx14160\tx14868\tx15576\tx16284\tx16992\tx17700\tx18408\tx19116\tx19824\tx20532\tx21240\tx21948\tx22656\tx23364\tx24072\tx24780\tx25488\tx26196\tx26904\tx27612\tx28320\adjustright {<br><br>
+\par <br><br>
+\par <br><br>
+\par }\pard\plain \s16\qc\widctlpar\adjustright \b\fs36\lang1049\cgrid {<br><br>}{\f17 {\*\bkmkstart _Toc505148489}{\*\bkmkstart _Toc505484159}Список литературы, необходимой для реализации образовательной программы}{{\*\bkmkend _Toc505148489}{\*\bkmkend _Toc505484159}
+\par }\pard\plain \qj\widctlpar\adjustright \lang1049\cgrid {<br><br>
+\par <br><br>}{\f17  \tab Астрова Г.Г. Геологические экскурсии - пособие для учителей 1949, -М.}{
+\par <br><br>}{\f17  \tab Ажгирей Г.Д, Горшков Г.П, Шанцер Е.В. Общая геология. 1974. М. изд.”Просвещение”}{
+\par <br><br>}{\f17  \tab Айрапетьянс А.Э., Стрелков П.П., Фокин И.М. Природа Ленинградской области: Звери. 1987, Л. изд. Лениздат.}{
+\par <br><br>}{\f17  \tab Беклемишев В.Н. Основы сравнительной анатомии беспозвоночных. в двух томах. 1964. М. изд. “Наука”.}{
+\par <br><br>}{\f17  \tab Бигон М, Харпер Дж, Таунсед К. Экология. в двух томах. 1989. М. изд. “Мир”.}{
+\par <br><br>}{\f17  \tab Биологический энциклопедический словарь. 1986. М. изд. “Советская энцеклопедия”.}{
+\par <br><br>}{\f17  \tab Вилли К, Датье В. Биология. 1974. М. изд. “Мир”.}{
+\par <br><br>}{\f17  \tab Вильчек Л. Яичко яичку не равно. 1962, Варшава.}{
+\par <br><br>}{\f17  \tab Вильчек Л. С глазу на глаз. 1962, Варшава.}{
+\par <br><br>}{\f17  \tab Горышина Т.К., Антонова И.С., Самойлов Ю.И. - практикум по экологии растений - СПб,1992}{
+\par <br><br>}{\f17  \tab Гуленкова М.А., Красникова А.А. - Летняя полевая практика по ботанике - М., 1986}{
+\par <br><br>}{\f17  \tab Гусев В.И. Определитель повреждений лесных, декоративных и плодовых деревьев и кустарников. 1984, М. изд.”Лесная промышленность”.}{
+\par <br><br>}{\f17  \tab Грин Н, Стаут У, Тейлор Д. Биология. в трех томах. 1990. М. изд “Мир”.}{
+\par <br><br>}{\f17  \tab Даринский А.В. Ленинградская область. 1975. Лениздат.}{
+\par }\pard \qj\fi720\widctlpar\adjustright {<br><br>}{\f17 Де Дюв К. Путешествие в мир живой клетки. 1987. М. изд. “мир”.}{
+\par }\pard \qj\widctlpar\adjustright {<br><br>}{\f17  \tab Догель В.А. Общая паразитология. 1962, Л. изд. ЛГУ}{
+\par }\pard \qj\widctlpar\adjustright {<br><br>}{\f17  \tab Догель В.А. Зоология беспозвоночных. 1981, М. изд. “Высшая школа”.}{
+\par <br><br>}{\f17  \tab Жадин В.И. (ред) Жизнь пресных вод СССР. 1949, М-Л. изд. АНСССР.}{
+\par <br><br>}{\f17  \tab Жизнь животных. Т. 1-3 Беспозвоночные. 1969, М. изд.”Просвещение”.}{
+\par <br><br>}{\f17  \tab Жизнь растений. Т. 1-6. 1974, М. изд. “Просвещение”}{
+\par <br><br>}{\f17  \tab Иванов А.В, Мончадский А.С, Полянский Ю.И, Стрелков А.А. Большой практикум по зоологии беспозвоночных. в трех томах. 1983 М. изд.”Высшая школа”}{
+\par <br><br>}{\f17  \tab Козлов М.А., Нинбург Е.М. Юным зоологам. 1981, М. изд. “Просвещение”.}{
+\par <br><br>}{\f17  \tab Кутикова Л.А.,Старобогатов Я.И. (ред) Определитель пресноводных беспозвоночных Европейской части СССР. 1977, изд. Гидрометиоиздат.}{
+\par <br><br>}{\f17  \tab Липин А.Н. Пресные воды и их жизнь. 1950, М. изд. УЧПЕДГИЗ.}{
+\par <br><br>}{\f17  \tab Мальчевский А.С., Пукинский Ю.Б. Птицы Ленинградской области и сопредельных территорий, Т.1,2. 1983, Л. изд. ЛГУ.}{
+\par <br><br>}{\f17  \tab Мальчевский А.С. Орнитологические экскурсии. Л. изд. ЛГУ}{
+\par <br><br>}{\f17  \tab Мамаев Б.М. Определитель насекомых по личинкам. 1972, М. изд. Просвещение.}{
+\par <br><br>}{\f17 \tab Нинбург Е.А. Технология научного исследования. Методические рекомендации. СПб., 2000.}{
+\par <br><br>}{\f17  \tab Павловский Е.Н., Лепнева С.Г. Очерки из жизни пресноводных животных. 1948.}{
+\par <br><br>}{\f17  \tab Плавильщиков Н.Н. Жизнь пруда. 1952, М-Л. изд. ДЕТГИЗ.}{
+\par <br><br>}{\f17  \tab Плавильщиков Н.Н. Определитель насекомых. 1957, М. изд. УЧПЕДГИЗ}{
+\par <br><br>}{\f17  \tab Промптов А.Н. Птици в природе. 1949, Л. изд. УЧПЕДГИЗ.}{
+\par <br><br>}{\f17  \tab Райков Б.Е., Римский-Корсоков М.Н. Зоологические экскурсии. 1994, М. изд. “Топикал”.}{
+\par <br><br>}{\f17  \tab Серебровский А.С. Биологические прогулки. 1947, М. изд.”Советская наука”.}{
+\par <br><br>}{\f17  \tab Старобогатов Я.И. Природа Ленинградской области: Раки, моллюски. 1988, Л. изд. Лениздат.}{
+\par <br><br>}{\f17  \tab Тыщенко В.П. (ред) Руководство по энтомологической практике. 1983, Л. изд. ЛГУ.}{
+\par <br><br>}{\f17  \tab Формозов А.Н. Спутник следопыта. 1989, М. изд. МГУ.}{
+\par <br><br>}{\f17  \tab Хазанович К.К. Геологические памятники Ленинградской области. 1982. Л. Лениздат.}{
+\par <br><br>}{\f17  \tab Хейсин Е.М. Краткий определитель пресноводной фауны. 1951, М. изд. УЧПЕДГИЗ.}{
+\par }\pard \qj\widctlpar\tx708\tx1416\tx2124\tx2832\tx3540\tx4248\tx4956\tx5664\tx6372\tx7080\tx7788\tx8496\tx9204\tx9912\tx10620\tx11328\tx12036\tx12744\tx13452\tx14160\tx14868\tx15576\tx16284\tx16992\tx17700\tx18408\tx19116\tx19824\tx20532\tx21240\tx21948\tx22656\tx23364\tx24072\tx24780\tx25488\tx26196\tx26904\tx27612\tx28320\adjustright {<br><br>}{\f17  \tab Ярошенко П.Д. Геоботаника. 1969, М. изд. Просвещение.}{
+\par <br><br>
+\par <br><br>
+\par }\pard\plain \s16\qc\widctlpar\adjustright \b\fs36\lang1049\cgrid {<br><br>
+\par }\pard \s16\qc\widctlpar\adjustright {<br><br>}{\f17 \page {\*\bkmkstart _Toc505148482}{\*\bkmkstart _Toc505484160}ПРИЛОЖЕНИЕ}{{\*\bkmkend _Toc505148482}{\*\bkmkend _Toc505484160}
+\par }\pard\plain \qj\widctlpar\adjustright \lang1049\cgrid {<br><br>
+\par }\pard\plain \s26\qc\widctlpar\adjustright \b\lang1049\cgrid {<br><br>}{\f17 {\*\bkmkstart _Toc505148483}{\*\bkmkstart _Toc505484161}{\*\bkmkstart _Toc505484257}{\*\bkmkstart _Toc505485147}Некоторые материалы, необходимые для проведения весенней полевой практики}{{\*\bkmkend _Toc505148483}{\*\bkmkend _Toc505484161}{\*\bkmkend _Toc505484257}{\*\bkmkend _Toc505485147}
+\par }\pard\plain \qc\widctlpar\adjustright \lang1049\cgrid {<br><br>}{\b 
+\par }\pard\plain \s27\qc\widctlpar\adjustright \b\i\lang1049\cgrid {\b0 <br><br>}{\f17 \tab {\*\bkmkstart _Toc505148484}{\*\bkmkstart _Toc505484162}{\*\bkmkstart _Toc505484258}{\*\bkmkstart _Toc505485148}1.Темы экскурсий на весенней полевой практике}{{\*\bkmkend _Toc505148484}{\*\bkmkend _Toc505484162}{\*\bkmkend _Toc505484258}{\*\bkmkend _Toc505485148}
+\par }\pard\plain \qj\widctlpar\adjustright \lang1049\cgrid {<br><br>}{\f17  \tab 1.1 Гидробиологические}{
+\par <br><br>}{\f17  - Экскурсия на старицы рек Ящеры и Луги (в ходе этих экскурсий предоставляется возможность показать максимальное разнообразие водных беспозвоночных и познакомить юннатов с основными представителями лимнофильной фауны)}{
+\par <br><br>}{\f17  - Экскурсия на реки Лугу или Ящеру (здесь разнообразие беспозвоночных значительно меньше, зато можно найти реофильных животных и рассказать о их приспособлениях к жизни в быстротекущей воде)}{
+\par <br><br>}{\f17  - Обследование эфемерных водоемов (пересыхающих луж и канав) Как правило, после проведения этих экскурсий проводится одно-два лекционных занятия, на которых происходит подробный рассказ о найденных и пойманных животных.}{
+\par <br><br>
+\par <br><br>}{\f17  \tab 1.2 Специальные экскурсии, посвященные различным беспозвоночным животным}{
+\par <br><br>}{\f17  - Исследование обитателей лесной подстилки и почвы (ребят знакомят с некоторыми представителями насекомых, паукообразных, червей и др. животными, обитающими на поверхности почвы, в лесной подстилке, в верхнем слое почвы, а также в трухлявых пнях и среди гниющей органики)}{
+\par <br><br>}{\f17  - Экскурсия, посвященная биоповреждениям (на этой экскурсии школьников знакомят с различными типами биоповреждений и причинами их вызывающими)}{
+\par <br><br>}{\f17  - Энтомологическая экскурсия (посвящена любым встреченным насекомым, проводится днем при условии хорошей погоды, в качестве оборудования для ее проведения необходим энтомологический сачок, эксгаустер и морилки. Эта экскурсия, как правило, сопряжена с предшествующим ей лекционным занятием, на котором рассказывается о наиболее представительных отрядах насекомых)}{
+\par <br><br>}{\f17  - Экскурсия, посвященная наблюдениям за личинками муравьиного льва (при проведении этой экскурсии, полностью посвященной только одному виду насекомых, внимание уделяется не только рассказу о биологии и поведении муравьиных львов, но и предлагается выполнить юннатам небольшое самостоятельное наблюдение за способом охоты личинки на различных насекомых, описать процесс закапывания муравьиного льва в песок и технику строительства ловчей воронки.)}{
+\par <br><br>
+\par <br><br>}{\f17 \tab 1.3 Зоологические экскурсии}{
+\par <br><br>}{\f17  - Орнитологическая экскурсия - утренний хор птиц- ( Для успешного проведения этой экскурсии необходимо, что бы группа экскурсантов состояла не более чем из 5-6 человек, причем перед самым началом экскурсии юннатам объясняют правила соблюдения тишины и передвижения, к тому же немаловажно, чтобы количество биноклей было не менее одного на двух человек, начинать подобную экскурсию лучше всего еще затемно - в четыре часа утра. Желательно, чтобы погода была теплая и безветренная, в таком случае можно услышать и увидеть максимум птиц, рассказать о некоторых особенностях формирования птичьего хора, о порядке запевания различных видов птиц и т. д. Экскурсия обычно заканчивается к 9 часам утра.)}{
+\par <br><br>}{\f17  - Орнитологическая экскурсия - вечерний хор птиц (Требования к проведению такие же как и у утренней экскурсии, начало обычно в 18-19 часов вечера и продолжительность не более 4 часов - можно услышать и увидеть ток бекаса и вальдшнепа, проследить этапы замолкания птичьего хора.)}{
+\par <br><br>}{\f17  Специальной экскурсии, посвященной млекопитающим, амфибиям и рептилиям не проводится, представители этих групп иногда встречаются при проведении обзорных или других специальных экскурсий.}{
+\par <br><br>
+\par <br><br>
+\par <br><br>}{\f17  \tab 1.4 Экскурсии ботанические}{
+\par <br><br>}{\f17  - Флористическая общая экскурсия ( подобных экскурсий может быть несколько, причем каждая из них может быть посвящена либо какой ни-будь одной группе растений (мхи + лишайники, травы, кустарники + деревья), либо растительности какого либо биотопа (болото, заливной луг, бор, ельник итд.)}{
+\par <br><br>}{\f17  - Флористическая экскурсия с элементами геоботаники ( На такой экскурсии помимо называния и рассказа о некоторых растений большое внимание уделяется демонстрации некоторых взаимоотношений между растениями и влияния на них факторов внешней среды)}{
+\par <br><br>
+\par <br><br>}{\f17  \tab 1.5 Экскурсии обзорные и ландшафтные}{
+\par <br><br>}{\f17  - Экскурсия ландшафтная ( На ней учащихся знакомят с элементарными знаниями по геоморфологии: Формирование ледникового рельефа и строение речной долины)}{
+\par <br><br> -}{\f17  Обзорная экскурсия - окрестности лагеря - (юннатов знакомят с окрестностями в радиусе 1-3 км. от лагеря)}{
+\par <br><br>}{\f17  - Дальняя обзорная экскурсия - долина реки Луга и речка Ифенка- (продолжительный маршрут, более 10 км. в одну сторону, поход сочетается с рассказом обо всем интересном встреченном по пути)}{
+\par <br><br>
+\par <br><br>
+\par <br><br>
+\par }\pard\plain \s27\qc\widctlpar\adjustright \b\i\lang1049\cgrid {<br><br>}{\f17  \tab {\*\bkmkstart _Toc505148485}{\*\bkmkstart _Toc505484163}{\*\bkmkstart _Toc505484259}{\*\bkmkstart _Toc505485149}2. Некоторые варианты вопросов зачета.}{{\*\bkmkend _Toc505148485}{\*\bkmkend _Toc505484163}{\*\bkmkend _Toc505484259}{\*\bkmkend _Toc505485149}
+\par }\pard\plain \qj\widctlpar\adjustright \lang1049\cgrid {<br><br>}{\f17  а) НТП:}{
+\par <br><br>}{\f17  - Расставить на время палатку}{
+\par <br><br>}{\f17  - Снять и свернуть палатку}{
+\par <br><br>}{\f17  - Разжечь костер}{
+\par <br><br> - }{\f17 Связать узлы из представленного списка и т.п. }{
+\par <br><br>
+\par <br><br>}{\f17  При этом одинаковые вопросы могут быть предоставлены разным учащимся для проведения соревнований.}{
+\par <br><br>
+\par <br><br>}{\f17  б) Зоология}{
+\par <br><br>}{\f17  - Необходимо поймать животное, обладающее дыхательной трубкой и парой передних хватательных ног.}{
+\par <br><br>}{\f17  Примечание: При решении этой проблемы ученик должен догадаться, о ком идет речь, где и как можно поймать. Если в описании дается какое-то очень обычное животное, то ученик должен найти то место, где их много и принести экземпляр.}{
+\par <br><br>}{\f17  - Дается название какого-либо животного и предлагается найти его в коллекции живых объектов, найденных на экскурсиях.}{
+\par <br><br>}{\f17  - Предоставляется набор животных, которых необходимо назвать и рассказать о них}{
+\par <br><br>}{\f17  - Ученик уводится в тихое место ему предлагается назвать всех птиц, голоса которых слышны.}{
+\par <br><br>
+\par <br><br>}{\f17  в) Ботаника}{
+\par <br><br>}{\f17  Вопросы составляются по тому же принципу, что и в предыдущем разделе.}{
+\par <br><br>
+\par }\pard\plain \s27\qc\widctlpar\adjustright \b\i\lang1049\cgrid {<br><br>}{\f17 {\*\bkmkstart _Toc505148486}{\*\bkmkstart _Toc505484164}{\*\bkmkstart _Toc505484260}{\*\bkmkstart _Toc505485150}3. Список видов, предлагаемых к ознакомлению на весенней полевой практике}{{\*\bkmkend _Toc505148486}{\*\bkmkend _Toc505484164}{\*\bkmkend _Toc505484260}{\*\bkmkend _Toc505485150}
+\par }\pard\plain \qj\widctlpar\adjustright \lang1049\cgrid {<br><br>}{\lang1033 
+\par <br><br>}{\b \sect }\sectd \marglsxn1418\margrsxn849\margbsxn1440\sbknone\linex0\headery709\footery709\cols2\colsx709\endnhere\colno1\colw4961\colsr425\colno2\colw4253\sectdefaultcl \pard\plain \qj\widctlpar\adjustright \lang1049\cgrid {\b\f17 Растения}{
+\par }\pard \widctlpar\adjustright {<br><br>}{\f17 Страусник }{\i Matteuccia struthiopteris}{
+\par <br><br>}{\f17  * Хвощ полевой }{\i Equisetum arvense}{
+\par <br><br>}{\f17  * Хвощ зимующий }{\i Equisetum hyemale}{
+\par <br><br>}{\f17  * Плаун булавовидный }{\i Lycopodium clavatum}{
+\par <br><br>}{\f17  * Плаун годичный }{\i Lycopodium annotinum}{
+\par <br><br>}{\f17  * Плаун сплюснутый (}{\i Lycopodium}{) }{\i Diphasiastrum complanatum}{
+\par <br><br>}{\f17  * Сосна }{\i Pinus sylvestris}{
+\par <br><br>}{\f17  * Ель }{\i Picea excelsa }{(}{\i P. abies}{)
+\par <br><br>}{\f17  * Можжевельник }{\i Juniperus communis}{
+\par }\pard \widctlpar\adjustright {<br><br>}{\f17  Осока }{\i Carex}{
+\par }\pard \widctlpar\adjustright {<br><br>}{\f17  * Пушица }{\i Eriophorum vaginatum}{
+\par <br><br>}{\f17  * Ожика волосистая }{\i Luzula pilosa}{
+\par <br><br>}{\f17  * Ландыш }{\i Convallaria majals}{
+\par <br><br>}{\f17  * род Ива }{\i Salix sp.}{
+\par <br><br>}{\f17  * Осина }{\i Populus tremula}{
+\par <br><br>}{\f17  * Береза бородавчатая }{\i Betula verrucosa}{
+\par <br><br>}{\f17  * Береза пушистая }{\i B.pubescens}{
+\par <br><br>}{\f17  * Ольха серая }{\i A.incana}{
+\par <br><br>}{\f17  * Дуб }{\i Quercus robur}{
+\par <br><br>}{\f17  * Вяз (род) }{\i Ulmus sp}{.
+\par <br><br>}{\f17  * Копытень }{\i Asarum europaeum}{
+\par <br><br>}{\f17  * Крапива двудомная }{\i Urtica dioica}{
+\par <br><br>}{\f17  Щавель кислый }{\i Rumex acetosa}{
+\par <br><br>}{\f17  Звездчатка }{\i Stellaria}{
+\par <br><br>}{\f17  * Калужница болотная }{\i Caltha palustris}{
+\par <br><br>}{\f17  Купальница европейская }{\i Trollius europaeus}{
+\par <br><br>}{\f17  * Ветреница дубравная }{\i Anemone nemorosa}{
+\par <br><br>}{\f17  * Ветреница лютиковидная }{\i A. ranunculoides}{
+\par <br><br>}{\f17  * Печеночница благородная }{\i Hepatica nobilis}{
+\par <br><br>}{\f17  * Прострел поникший }{\i Pulsatilla patens}{
+\par <br><br>}{\f17  * Хохлатка плотная }{\i Coridalis solida}{
+\par <br><br>}{\f17  Очиток едкий }{\i Sedum acre}{
+\par <br><br>}{\f17  * Селезеночник очереднолистный }{\lang1033          }{\i\lang1033 C}{\i hrysosplenium alternifolium}{
+\par <br><br>}{\f17  * Смородина черная }{\i Ribes nigrum}{
+\par <br><br>}{\f17  * Черемуха }{\i Padus avium}{
+\par <br><br>}{\f17  * Рябина }{\i Sorbus aucuparia}{
+\par <br><br>}{\f17  * Земляника лесная }{\i Fragaria vesca}{
+\par <br><br>}{\f17  * род Манжетка }{\i Alchemilla sp.}{
+\par }\pard \widctlpar\adjustright {<br><br>}{\f17  * Клен платановидный }{\i Acer }{\i\lang1033 p}{\i latanoides}{
+\par }\pard \widctlpar\adjustright {<br><br>}{\f17  * Липа }{\i Tilia cordata}{
+\par <br><br>}{\f17  Фиалка }{\i Viola sp.}{
+\par <br><br>}{\f17  * Волчье лыко }{\i Daphne mesereum}{
+\par <br><br>}{\f17  * Вереск }{\i Calluna vulgaris}{
+\par <br><br>}{\f17  * Багульник }{\i Ledum palustre}{
+\par <br><br>}{\f17  Подбел }{\i Andromeda polifolia}{
+\par <br><br>}{\f17  * Болотный мирт }{\i Chamedaphne calyculata}{
+\par <br><br>}{\f17  * Толокнянка }{\i Arctostaphylos uva-ursi}{
+\par <br><br>}{\f17  * Клюква болотная }{\i Oxycoccus palustre}{
+\par <br><br>}{\f17  Клюква мелкоплодная }{\i Oxycoccus microcarpum}{
+\par <br><br>}{\f17  * Черника }{\i Vaccinium myrtillys}{
+\par <br><br>}{\f17  * Брусника }{\i Vaccinium vitis-idaea}{
+\par <br><br>}{\f17  * Первоцвет }{\i Primula elatior}{
+\par <br><br>}{\f17  * Медуница }{\i Pulmonaria obscura}{
+\par <br><br>}{\f17  Жимолость ломкая }{\i Lonicera xylosteum}{
+\par <br><br>}{\f17  * Линнея cеверная }{\i Linnaea borealis}{
+\par <br><br>}{\f17  Кошачья лапка }{\i Anthennaria dioica}{
+\par <br><br>}{\lang1033 
+\par <br><br>}{ }{\b\f17 Мхи}{
+\par <br><br> * }{\i Pleurozium schreberii
+\par <br><br> * Hylocomium splendens
+\par <br><br> * Dicranum polysetum
+\par <br><br> Mnium s.l. spp.
+\par <br><br> * Polytrichum commune
+\par <br><br> * Sphagnum spp.}{
+\par <br><br> }{\b\f17 Лишайники:}{
+\par <br><br>}{\i  * Cetraria islandica
+\par <br><br> * Cladina arbuscula
+\par }\pard \widctlpar\adjustright {\i <br><br> * Cladina rangiferina
+\par }\pard \widctlpar\adjustright {\i <br><br> * Cladina stellaris
+\par <br><br> * Cladonia spp.
+\par <br><br> * Hypogymnia physodes
+\par <br><br> * Usnea sp.
+\par <br><br> * Alectoria sp.
+\par <br><br>}{
+\par <br><br>
+\par <br><br> }{\b\f17 Беспозвоночные:}{
+\par <br><br>}{\lang1033 * }{\f17 Turbellaria - ресничные черви}{
+\par <br><br> }{\i Mesostoma}{
+\par <br><br> }{\i Planaria torva}{
+\par <br><br> }{\i P.lugubris}{
+\par <br><br> * }{\i Dendrocoelum lacteum}{\f17  - белая планария}{
+\par <br><br>
+\par <br><br>Hyrudinea
+\par <br><br> * }{\i Glossiphonia complanata }{\f17 - улитковая пиявка}{
+\par <br><br> * }{\i Haemopis sanguisuga }{\f17 - большая ложноконская пиявка}{
+\par <br><br> * }{\i Herpobdella octoculata}{\f17  - малая ложноконская пиявка}{
+\par <br><br>
+\par <br><br>Mollusca
+\par <br><br> Gastropoda
+\par <br><br> }{\i Ancylus fluviatilis }{\f17 блюдечко}{
+\par <br><br> }{\i A. lacustris}{
+\par <br><br> * }{\i Planorbis corneus }{\f17 роговая катушка}{
+\par <br><br> }{\i P. planorbis}{
+\par <br><br> * }{\i Limnaea auricularia }{\f17 прудовик ушковый}{
+\par <br><br> * }{\i L.ovata}{\f17   П. овальный}{
+\par <br><br> * }{\i L. stagnalis }{\f17 П. большой}{
+\par }\pard \widctlpar\adjustright {<br><br> * }{\i L. palustris}{\f17  П. болотный}{
+\par }\pard \widctlpar\adjustright {<br><br> * }{\i Physa sp.}{\f17  физа}{
+\par <br><br> * }{\i Aplexa hypnorum}{\f17  аплекса}{
+\par <br><br> * }{\i Viviparus sp.}{\f17  лужанка (живородка)}{
+\par <br><br> * }{\i Bithynia sp.}{\f17  битиния}{
+\par <br><br> }{\i Valvata sp.}{
+\par <br><br> * }{\i Unio sp.}{\f17  перловица}{
+\par <br><br> * }{\i Anodonta sp.}{\f17  беззубка}{
+\par <br><br> * }{\i Pisidiidae}{\f17  горошинки}{
+\par <br><br>
+\par <br><br>
+\par <br><br>
+\par <br><br>Crustacea
+\par <br><br> * }{\i Asellus aquaticus }{\f17 водяной ослик}{
+\par <br><br> * }{\i Gammarus sp.}{\f17  водяная блоха}{
+\par <br><br> }{\i Cyclops }{\f17 циклоп}{
+\par <br><br> * }{\i Branchipus }{\f17 жаброног}{
+\par <br><br> * }{\i Ostracoda }{\f17 ракушковые раки}{
+\par <br><br> * }{\i Lepidurus }{\f17 щитень весенний}{
+\par <br><br>
+\par <br><br>Arachnida
+\par <br><br> * }{\i Argyroneta aquatica }{\f17 серебрянка}{
+\par <br><br> * }{\i Dolomedes fimbriatus }{\f17 доломедес}{
+\par <br><br> * }{\i Hydracarina }{\f17 водные клещи}{
+\par <br><br>
+\par <br><br>Insecta
+\par <br><br> Megaloptera
+\par <br><br> * }{\i Sialis }{\f17 вислокрылки}{
+\par <br><br> Odonata
+\par }\pard \widctlpar\adjustright {<br><br>}{\f17  равнокрылые стрекозы}{
+\par }\pard \widctlpar\adjustright {<br><br> * }{\i Agrion }{\f17 лютки}{
+\par <br><br> * }{\i Lestes }{\f17 стрелки}{
+\par <br><br> * }{\i Coenagrion }{\f17 красотки}{
+\par <br><br>}{\f17  разнокрылые стрекозы}{
+\par <br><br> * }{\i Cordulia }{\f17 дедки}{
+\par <br><br> * }{\i Libellula }{\f17 бабки}{
+\par <br><br> * }{\i Aeschna }{\f17 коромысло}{
+\par <br><br>
+\par <br><br> *}{\i Ephemeroptera }{\f17 поденки}{
+\par <br><br> }{\i Leptophlebia}{
+\par <br><br> }{\i Baetis}{
+\par <br><br> }{\i Cloen}{
+\par <br><br> }{\i Siphlonurus}{\i\lang1033 
+\par <br><br>}{
+\par <br><br>}{\f17 Hemiptera клопы}{
+\par <br><br> * }{\i Nepa cierea }{\f17 водяной скорпион}{
+\par <br><br> * }{\i Sigara}{
+\par <br><br> * }{\i Notonecta glauca }{\f17 гладыш}{
+\par <br><br> }{\i Hydrometra}{
+\par <br><br> * }{\i Gerridae}{\f17  водомерки}{
+\par <br><br>
+\par <br><br>*}{\i Trichoptera}{\f17  ручейники}{
+\par <br><br>}{\i  Hydropsiche
+\par <br><br> Rhyacophila
+\par <br><br> Polycentropus
+\par <br><br> Mollana angustata
+\par <br><br> Glyphotaelius
+\par <br><br> Fryganea
+\par }\pard \widctlpar\adjustright {\i <br><br> Neuronia
+\par }\pard \widctlpar\adjustright {\i <br><br> Limnophilus decipiens
+\par <br><br> Limnophilus ex gr. flavicotnis
+\par <br><br> Stenophilax 
+\par <br><br>}{\lang1033 
+\par <br><br>}{Diptera 
+\par <br><br>* }{\i Anopheles }{\f17 малярийный комар}{
+\par <br><br> * }{\i Culicidae}{\f17  комары}{
+\par <br><br> * }{\i Dixa }{\f17 земноводный комарик}{
+\par <br><br> * }{\i Simulium }{\f17 мошка}{
+\par <br><br> * }{\i Chironomus }{\f17 мотыль}{
+\par <br><br> * }{\i Eristalis}{
+\par <br><br> * }{\i Tipula}{
+\par <br><br> * }{\i Liriope}{
+\par <br><br> * }{\i Tabanidae}{
+\par <br><br>
+\par <br><br>
+\par <br><br>}{\b\f17 Список птиц:}{
+\par <br><br>}{\f17  * Кряква }{\i Anas platyrhynchos}{
+\par <br><br>}{\f17  Хохлатая чернеть}{
+\par <br><br>}{\f17  Гоголь}{
+\par <br><br>}{\f17  Канюк}{
+\par <br><br>}{\f17  Серый журавль}{
+\par <br><br>}{\f17  Лысуха}{
+\par <br><br>}{\f17  Чибис}{
+\par <br><br>}{\f17  * Перевозчик }{\i Actitis hypoleucos}{
+\par <br><br>}{\f17  * Бекас ¤ }{\i Gallinago gallinago}{
+\par <br><br>}{\f17  * Вальдшнеп ¤ }{\i Scjlopax rusticola}{
+\par <br><br>}{\f17  * Кукушка ¤ }{\i Cuculus canorus}{
+\par }\pard \widctlpar\adjustright {<br><br>}{\lang1033  *}{\f17  Желна}{
+\par }\pard \widctlpar\adjustright {<br><br>}{\f17  * Большой пестрый дятел ¤ }{\i Dendrocopos major}{
+\par <br><br>}{\f17  Малый пестрый дятел}{
+\par <br><br>}{\f17  * Полевой жаворонок ¤ }{\i Alauda arvensis}{
+\par <br><br>}{\f17  * Деревенская ласточка }{\i Hirundo rustica}{
+\par <br><br>}{\f17  * Черный дрозд ¤ }{\i Turdus merula}{
+\par <br><br>}{\f17  * Белая трясогуска }{\i Motacilla alba}{
+\par <br><br>}{\f17  Крапивник}{
+\par <br><br>}{\f17  Зорянка}{
+\par <br><br>}{\f17  * Соловей ¤}{
+\par <br><br>}{\f17  * Певчий дрозд ¤ T. philomelos}{
+\par <br><br>}{\f17  * Рябинник}{
+\par <br><br>}{\f17  Камышевка}{
+\par <br><br>}{\f17  * Серая славка ¤ }{\i Sylvia communis}{
+\par <br><br>}{\f17  * Садовая славка ¤ }{\i Sylvia borin}{
+\par <br><br>}{\f17  * Пеночка весничка ¤ }{\i Phylloscopus trochilus}{
+\par <br><br>}{\f17  * Пеночка теньковка ¤ }{\i P. collybita}{
+\par <br><br>}{\f17  * Пеночка трещетка ¤ }{\i P. sibilatrix}{
+\par <br><br>}{\f17  * Серая мухоловка}{
+\par <br><br>}{\f17  * Пухляк }{\i Parus montanus}{
+\par <br><br> }{\f17 Хохлатая синица}{
+\par <br><br>}{\f17  * Большая синица }{\i P. major}{
+\par <br><br>}{\f17  * Лазоревка}{
+\par <br><br>}{\f17  * Поползень}{
+\par <br><br>}{\f17  * Обыкновенная овсянка ¤ }{\i Emberiza citrinella}{
+\par <br><br>}{\f17  * Зяблик ¤ }{\i Fringilla coele}{\i\lang1033 b}{\i s}{
+\par <br><br>}{\f17  * Зеленушка ¤ }{\i Chloris chloris}{
+\par <br><br> }{\lang1033 * }{\f17 Чиж}{
+\par <br><br> }{\lang1033 * }{\f17 Щегол}{
+\par }\pard \widctlpar\adjustright {<br><br>}{\f17  * Домовой воробей }{\i Passer domesticus}{
+\par }\pard \widctlpar\adjustright {<br><br>}{\f17  * Полевой воробей }{\i\f17 Р. montanus}{
+\par <br><br> }{\lang1033 * }{\f17 Скворец}{
+\par <br><br>}{\f17  * Сойка }{\i Garrulus glandarus}{
+\par <br><br>}{\f17  * Сорока }{\i Pica pica}{
+\par <br><br>}{\f17  * Галка }{\i Corvus monedula}{
+\par <br><br>}{\f17  * Серая ворона ¤ }{\i Corvus cornix}{
+\par <br><br>}{\f17  * Ворон ¤ }{\i C. corax
+\par <br><br>}{\sect }\sectd \margrsxn1800\margbsxn1440\sbknone\linex0\headery709\footery709\colsx709\endnhere\titlepg\sectdefaultcl \pard\plain \widctlpar\adjustright \lang1049\cgrid {
+\par }\pard \qj\widctlpar\adjustright {<br><br>}{\lang1033 
+\par }\pard \qj\widctlpar\adjustright {\lang1033 <br><br>}{\f17  * - помеченные таким значком виды обязательны для запоминания}{
+\par <br><br>}{\f17  ¤ - желательно узнавать птиц помеченных таким значком по голосам.}{
+\par <br><br>
+\par }\pard\plain \s27\qc\widctlpar\adjustright \b\i\lang1049\cgrid {<br><br>}{\f17 {\*\bkmkstart _Toc505148487}{\*\bkmkstart _Toc505484165}{\*\bkmkstart _Toc505484261}{\*\bkmkstart _Toc505485151}4. Список основных морских узлов и особенности их применения}{{\*\bkmkend _Toc505148487}{\*\bkmkend _Toc505484165}{\*\bkmkend _Toc505484261}{\*\bkmkend _Toc505485151}
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 1) \tab}}\pard\plain \qj\fi-283\li343\widctlpar{\*\pn \pnlvlbody\ilvl0\ls20\pnrnot0\pndec\pnb0\pni0\pnfs24\pnstart1\pnindent283\pnhang{\pntxta ) }}\ls20\adjustright \lang1049\cgrid {<br><br>}{\i\f17 Прямой узел}{\lang1033 
+\par }\pard \qj\widctlpar\adjustright {\lang1033 <br><br>}{\f17 Служит для сращивания двух концов. Обратить внимание на то, что его нельзя путать с “Воровским” узлом, который не пригоден для этой цели.}{
+\par <br><br> 2) }{\i\f17 Академический узел}{
+\par <br><br>}{\f17  Применение тоже, что и у предыдущего, но надежность сращивания значительно выше.}{
+\par <br><br> 3) }{\i\f17 Рифовый узел}{
+\par <br><br>}{\f17  Применяется для сращивания двух концов в том случае, когда необходимо быстрое развязывание узла.}{
+\par <br><br> 4) }{\i\f17 Шкотовый узел}{
+\par <br><br>}{\f17  Применяется для сращивания двух концов разного диаметра.}{
+\par <br><br>6) }{\i\f17 Штык}{
+\par <br><br>}{\f17  Применяется для закрепления конца на каком-либо неподвижном предмете (кольце лодки, дереве и т.п.).}{
+\par <br><br> 7) }{\i\f17 Булинь}{
+\par <br><br>}{\f17  Необходим для быстрого и надежного обвязывания человека для создания страховки.}{
+\par <br><br> 8) }{\i\f17 Незатягивающаяся петля }{
+\par <br><br>}{\f17 Предназначена для образования надежной петли на конце, которая может быть легко развязана.}{
+\par <br><br>
+\par }\pard\plain \s26\qc\widctlpar\adjustright \b\lang1049\cgrid {<br><br>}{\f17 \page {\*\bkmkstart _Toc505148488}{\*\bkmkstart _Toc505484166}{\*\bkmkstart _Toc505484262}{\*\bkmkstart _Toc505485152}УСТАВ Лаборатории экологии морского бентоса (гидробиологии)}{{\*\bkmkend _Toc505148488}{\*\bkmkend _Toc505484166}{\*\bkmkend _Toc505484262}{\*\bkmkend _Toc505485152}
+\par }\pard\plain \qc\widctlpar\adjustright \lang1049\cgrid {<br><br>}{\b\ul 
+\par }\pard \qj\fi-283\li283\widctlpar\tx283\adjustright {\b\ul <br><br>}{1.\tab }{\b\f17 Общие положения.}{
+\par }\pard \qj\fi-708\li1416\widctlpar\tx1416\adjustright {<br><br>}{\f17 1.1.\tab Лаборатория экологии морского бентоса (гидробиологии), далее ЛЭМБ, или Лаборатория, - юношеская научная организация, действующая на основании данного Устава.}{
+\par <br><br>}{\f17 1.2.\tab Устав является сводом положений, которые регламентируют работу и взаимоотношения в Лаборатории.}{
+\par <br><br>}{\f17 1.3.\tab Устав состоит из основного документа и Специальных Приложений. Последние создаются и принимаются в качестве дополнения к Уставу.}{
+\par <br><br>}{\f17 1.4.\tab Изменения и поправки к Уставу и Приложениям должны приниматься на общем собрании Лаборатории при наличии кворума.}{
+\par <br><br>}{\f17 1.5.\tab Все принимаемые положения Устава должны находиться в рамках законов Российской Федерации и устава Санкт-Петербургского городского Дворца творчества юных.}{
+\par <br><br>}{\f17 1.6.\tab Все положения Устава и Приложений обязательны к выполнению для всех занимающихся в Лаборатории.}{
+\par }\pard \qj\fi-283\li283\widctlpar\tx283\adjustright {<br><br>
+\par <br><br>2.\tab }{\b\f17 Цели и задачи }{
+\par }\pard \qj\fi-708\li1416\widctlpar\tx1416\adjustright {<br><br>}{\f17 2.1.\tab ЛЭМБ ставит перед собой следующие цели:}{
+\par }\pard \qj\fi-708\li2124\widctlpar\tx2124\adjustright {<br><br>}{\f17 2.1.1.\tab осуществление научной деятельности (приоритетной является работа в области морской биологии)}{
+\par <br><br>}{\f17 2.1.2.\tab биологическое, экологическое естественнонаучное образование}{
+\par <br><br>}{\f17 2.1.3.\tab способствование природоохранной деятельности }{
+\par <br><br>}{\f17 2.1.4.\tab популяризация эколого-биологических знаний.}{
+\par }\pard \qj\fi-283\li720\widctlpar\tx720\adjustright {<br><br>
+\par }\pard \qj\fi-283\li283\widctlpar\tx283\adjustright {<br><br>3.\tab }{\b\f17 Виды деятельности ЛЭМБ}{
+\par }\pard \qj\fi-708\li1416\widctlpar\tx1416\adjustright {<br><br>}{\f17 3.1.\tab ЛЭМБ осуществляет:}{
+\par }\pard \qj\fi-708\li2124\widctlpar\tx2124\adjustright {<br><br>}{\f17 3.1.1.\tab сбор научного материала и его обработку}{
+\par <br><br>}{\f17 3.1.2.\tab экспедиционные выезды с целью сбора научного материала}{
+\par <br><br>}{\f17 3.1.3.\tab мониторинговые наблюдения за природными экосистемами}{
+\par <br><br>}{\f17 3.1.4.\tab написание научных работ и их дальнейшую публикацию}{
+\par <br><br>}{\f17 3.1.5.\tab проведение учебных занятий (лекций, экскурсий, семинаров, выездов и т. п.)}{
+\par <br><br>}{\f17 3.1.6.\tab участие в научных и педагогических мероприятиях по тематике, связанной с целями и задачами ЛЭМБ}{
+\par <br><br>}{\f17 3.1.7.\tab организацию научных и педагогических мероприятий по тематике, связанной с целями и задачами ЛЭМБ}{
+\par <br><br>}{\f17 3.1.8.\tab осуществляет совместную работу с другими организациями в рамках научных, природоохранных и образовательных проектов}{
+\par <br><br>}{\f17 3.1.9.\tab сбор и пополнение научных, учебных и музейных коллекций.}{
+\par }\pard \qj\widctlpar\adjustright {<br><br>\tab 
+\par <br><br>
+\par }\pard \qj\fi-283\li283\widctlpar\tx283\adjustright {<br><br>4.\tab }{\b\f17 Преподаватели ЛЭМБ}{
+\par }\pard \qj\fi-708\li1416\widctlpar\tx1416\adjustright {<br><br>}{\f17 4.1.\tab Управление работой ЛЭМБ осуществляется Преподавателями, которые являются государственными служащими и их деятельность регламентируется сводом должностных обязанностей.}{
+\par <br><br>}{\f17 4.2.\tab Преподаватели координируют работу лаборатории и обладают правом вето на решение любых вопросов, выносящихся на голосование.}{
+\par <br><br>}{\f17 4.3.\tab Преподаватели являются официальными представителями Лаборатории; представляют интересы Лаборатории в других организациях; способствуют материально-техническому и финансовому развитию Лаборатории.}{
+\par <br><br>}{\f17 4.4.\tab В полевых условиях (на экскурсиях, выездах, экспедициях) Преподаватели обладают правом единоличного решения всех вопросов, связанных с работой и жизнеобеспечением.}{
+\par }\pard \qj\li708\widctlpar\adjustright {<br><br>\tab 
+\par }\pard \qj\fi-283\li283\widctlpar\tx283\adjustright {<br><br>
+\par <br><br>5.\tab }{\b\f17 Структура ЛЭМБ}{
+\par }\pard \qj\fi-708\li1416\widctlpar\tx1416\adjustright {<br><br>}{\f17 5.1.\tab ЛЭМБ является федерацией двух равноправных исследовательских групп: Группы исследования прибрежных сообществ (ГИПС) и Сублиторальной группы.}{
+\par <br><br>}{\f17 5.2.\tab В федеральном ведении ЛЭМБ находится Библиотека, Коллекции, Архив и Музей.}{
+\par <br><br>}{\f17 5.3.\tab Работа Библиотеки и Музея, а также работа с Коллекциями и Архивами регламентируется правилами, входящими в состав Специальных Приложений.}{
+\par <br><br>}{\f17 5.4.\tab В ЛЭМБ существуют следующие должности: Заведующий музеем, Библиотекарь, Архивариус, Заведующий коллекциями.}{
+\par <br><br>}{\f17 5.5.\tab В многодневных выездах Преподавателями назначаются заведующий экспедиционным хозяйством (Боцман), заведующий продуктовым обеспечением (Кандей) и заведующий лабораторным оборудованием (Завлаб), которые наделены временными полномочиями.}{
+\par <br><br>}{\f17 5.6.\tab Права и обязанности Заведующего музеем, Библиотекаря, Архивариуса, Заведующего коллекциями, Боцмана, Кандея и Завлаба регламентируется правилами, входящими в состав Специальных Приложений.}{
+\par <br><br>}{\f17 5.7.\tab В случае отсутствия добровольных кандидатов на выборные должности решение вопросов, связанных с работой на выборных должностях, ложится на Преподавателей.}{
+\par <br><br>}{\f17 5.8.\tab У учащихся ЛЭМБ существуют следующие статусы: Новичок, Старший и Член Лаборатории.}{
+\par <br><br>}{\f17 5.9.\tab Наличие какого-либо статуса у учащегося предполагает прохождение предыдущего.}{
+\par <br><br>}{\f17 5.10.\tab Любой школьник, приходящий в ЛЭМБ становится новичком. Главная задача новичка - прохождение учебных программ ЛЭМБ. Он может помогать людям более высоких статусов в их научной деятельности. Если новичок в первый год обучения едет в Зимнюю Экспедицию, то он не повышается в статусе. В конце учебного года новичок должен пройти весеннюю полевую практику. По результатам работы на протяжение учебного года и весенней полевой практики кандидатура новичка при условии согласия родителей, наличия медицинской справки, разрешающей участие в многодневных походах, и при наличии личного заявления новичка выносится на голосование по вопросу его участия в экспедиции.}{
+\par <br><br>}{\f17 5.11.\tab Статус старшего присваивается новичку, прошедшему Весеннюю полевую практику и принявшему участие в экспедиции, либо выполнившего самостоятельную научную работу без участия в экспедиции. Старший обязан ежегодно подтверждать свой статус путем выполнения самостоятельной научной или музейной работы. Он обязан принимать участие в научной и хозяйственной работе ЛЭМБ. Старший имеет право голоса только при обсуждении вопросов, связанных с выдвижением той или иной кандидатуры на выборные должности. Он имеет право пользоваться коллекциями и архивами ЛЭМБ. При систематическом несоблюдении своих обязанностей по инициативе Преподавателей старший может быть разжалован в статус новичка.}{
+\par <br><br>}{\f17 5.12.\tab Член Лаборатории - высший статус в ЛЭМБ. Членами Лаборатории становятся старшие, которые приняли участие хотя бы в одной экспедиции, выполнили и доложили на лабораторном семинаре самостоятельную исследовательскую или музейную работу. Присвоение статуса члена лаборатории осуществляется в ходе голосования, в котором принимают участие члены лаборатории, при наличии кворума. Член лаборатории обязан вести научную или музейную работу или работать на выборной должности. В обязанности члена лаборатории входит участие в учебном процессе ЛЭМБ (проведение занятий для новичков в городе, на выездах и на весенней учебной практике, экскурсии в музее). Член лаборатории должен принимать участие в планировании научной работы экспедиций; помогать младшим в написании научной работы, сборе и обработке материала в экспедиции. В случае несоблюдения своих обязанностей член лаборатории может быть лишен этого статуса путем голосования. Члены Лаборатории имеют право решающего голоса по всем вопросам, которые выносятся на голосование; они обладают приоритетным правом на командование в экспедиции в случае отсутствия Преподавателей. Члены лаборатории имеют свободный доступ к коллекциям и архивам. Для членов лаборатории возможно пользование абонементом библиотеки с персонального разрешения Преподавателей или заведующего библиотекой. }{
+\par <br><br>}{\f17 5.13.\tab Все учащиеся ЛЭМБ вне зависимости от статуса обязаны выполнять распоряжения Преподавателей, бережно относиться к имуществу ЛЭМБ и способствовать его приумножению, достойно представлять Лабораторию (дома, в школе, на улице, на общественных мероприятиях и т. п.).}{
+\par <br><br>}{\f17 5.14.\tab Окончившие обучение в ЛЭМБ объявляются Выпускниками Лаборатории. Выпускник ЛЭМБ получает пожизненный статус Почетного Члена Лаборатории. Почетный член лаборатории имеет право совещательного голоса по всем вопросам, выносящимся на голосование. При условии активного участия почетного члена лаборатории в работе ЛЭМБ он приравнивается в своих правах к статусу действующего члена лаборатории.}{
+\par }\pard \qj\fi-283\li283\widctlpar\tx283\adjustright {<br><br>
+\par <br><br>6.\tab }{\b\f17 Управление ЛЭМБ}{
+\par }\pard \qj\fi-708\li1416\widctlpar\tx1416\adjustright {<br><br>}{\f17 6.1.\tab Основным органом, принимающим ключевые решения в ЛЭМБ, является Общий сбор Лаборатории, на котором обязаны присутствовать все действующие члены лаборатории и старшие, а также приглашаются новички и почетные члены Лаборатории. }{
+\par <br><br>}{\f17 6.2.\tab На общем собрании ЛЭМБ решаются следующие вопросы: }{
+\par }\pard \qj\fi-708\li2124\widctlpar\tx2124\adjustright {<br><br>}{\f17 6.2.1.\tab принятие Устава и приложений к нему}{
+\par <br><br>}{\f17 6.2.2.\tab принятие поправок к Уставу и приложениям}{
+\par <br><br>}{\f17 6.2.3.\tab голосование по вопросам приема в члены Лаборатории}{
+\par <br><br>}{\f17 6.2.4.\tab голосование по вопросам исключения из членов Лаборатории}{
+\par <br><br>}{\f17 6.2.5.\tab голосование по вопросам формирования состава экспедиций}{
+\par <br><br>}{\f17 6.2.6.\tab отчет членов лаборатории о работе в течение года}{
+\par <br><br>}{\f17 6.2.7.\tab выборы членов Ученого совета ЛЭМБ.}{
+\par }\pard \qj\fi-708\li1416\widctlpar\tx1416\adjustright {<br><br>}{\f17 6.3.\tab Ученый совет ЛЭМБ состоит из Преподавателей, библиотекаря, архивариуса, заведующего музеем, заведующего коллекцией и двух членов лаборатории (по одному от каждой исследовательской группы). Кандидатуры на должности библиотекаря, архивариуса, заведующего музеем и заведующего коллекциями выдвигаются добровольно из числа старших и членов лаборатории. }{
+\par <br><br>}{\f17 6.4.\tab Сбор Ученого совета осуществляется по инициативе любого из членов совета и проходит не позднее одной недели со дня внесения предложения о сборе. }{
+\par <br><br>}{\f17 6.5.\tab Минимальный состав членов Ученого совета для проведения сбора - четыре человека (из них не менее двух Преподавателей). На сбор Ученого совета могут быть приглашены, по инициативе членов совета, любые лица, имеющие отношения к тематике сбора.}{
+\par <br><br>}{\f17 6.6.\tab В задачи Ученого совета входит планирование научной и хозяйственной деятельности ЛЭМБ и составление бюджета Лаборатории. Ученый совет принимает к рассмотрению поправки к Уставу и подготавливает их к обсуждению на общем собрании ЛЭМБ.}{
+\par }\pard \qj\li708\widctlpar\adjustright {<br><br>\tab 
+\par }\pard \qj\fi-283\li283\widctlpar\tx283\adjustright {<br><br>
+\par <br><br>7.\tab }{\b\f17 Ход голосования и кворум}{
+\par }\pard \qj\fi-708\li1416\widctlpar\tx1416\adjustright {<br><br>}{\f17 7.1.\tab Правом решающего голоса обладают только Преподаватели и действующие члены Лаборатории (за исключением голосования по выборным должностям).}{
+\par <br><br>}{\f17 7.2.\tab Преподаватели обладают правом вето на решение любых вопросов, выносящихся на голосование.}{
+\par <br><br>}{\f17 7.3.\tab Кворумом для голосования по любым вопросам является 2/3 всех действующих членов Лаборатории.}{
+\par <br><br>}{\f17 7.4.\tab Если при голосовании возникают спорные случаи, правом решающего голоса обладают Преподаватели.}{
+\par <br><br>}{\f17 7.5.\tab Голосование по вопросам приема в члены лаборатории и приема в состав экспедиции осуществляется в форме тайного голосования. В остальных случаях, если это не оговорено отдельно, проводится открытое голосование.}{
+\par <br><br>}{\f17 7.6.\tab Принятие решения происходит на основе простого большинства голосов. }{
+\par }\pard \qj\fi-283\li283\widctlpar\tx283\adjustright {<br><br>
+\par <br><br>8.\tab }{\b\f17 Формирование состава экспедиции}{ 
+\par }\pard \qj\fi-708\li1416\widctlpar\tx1416\adjustright {<br><br>}{\f17 8.1.\tab Экспедицией считается выезд не менее 5 участников и 1 преподавателя Лаборатории на срок не менее трех дней с научными целями. Основными экспедиционными документами являются полевые дневники и бортжурнал экспедиции.}{
+\par <br><br>}{\f17 8.2.\tab Все прочие выезды не имеют статуса экспедиции, состав участников подобных выездов формируется Преподавателями .}{
+\par <br><br>}{\f17 8.3.\tab Действующие члены Лаборатории принимаются в состав экспедиции только на основе их личного заявления, справки от врача и разрешения родителей.}{
+\par <br><br>}{\f17 8.4.\tab Кандидатуры старших принимаются для голосования при наличии персональных заявлений (с визой родителей) и справки от врача.}{
+\par <br><br>}{\f17 8.5.\tab Кандидатуры новичков, прошедших весеннюю полевую практику, принимаются для голосования при наличии персональных заявлений (с визой родителей) и справки от врача. }{
+\par <br><br>}{\f17 8.6.\tab В исключительных случаях кандидатура новичка, не прошедшего весеннюю практику, может быть предложена для участия в зимней экспедиции. }{
+\par <br><br>}{\f17 8.7.\tab Кандидатуры, не прошедшие большинством голосов, включены в состав экспедиции быть не могут.}{
+\par <br><br>}{\f17 8.8.\tab В особых случаях в состав экспедиции может быть включен человек, не входящий в состав ЛЭМБ. Вопрос о включении такого человека в состав экспедиции решается Преподавателями.}{
+\par <br><br>}{\f17 8.9.\tab В случае нарушения дисциплины любой участник экспедиции может быть исключен из ее состава на любой ее стадии (от момента начала сборов до окончания).}{
+\par }\pard \qj\fi-283\li283\widctlpar\tx283\adjustright {<br><br>
+\par <br><br>9.\tab }{\b\f17 Научный материал и коллекции ЛЭМБ}{
+\par }\pard \qj\fi-708\li1416\widctlpar\tx1416\adjustright {<br><br>}{\f17 9.1.\tab Научным материалом считаются любые сборы и информация полученная в ходе экспедиций и выездов ЛЭМБ}{
+\par <br><br>}{\f17 9.2.\tab Все научные материалы обрабатываются и сохраняются }{
+\par <br><br>}{\f17 9.3.\tab В ходе выездов, экскурсий и экспедиций собирается коллекционный материал для пополнения коллекций и музейной экспозиции}{
+\par <br><br>}{\f17 9.4.\tab Обязательному сохранению в Лаборатории подлежат бортжурналы, полевые дневники, черновики работ, карты и схемы местности, видео- и фотоматериалы, внутренняя газета, документы, связанные с деятельностью Лаборатории и другие материальные носители информации, ценной для Лаборатории}{
+\par <br><br>}{\f17 9.5.\tab Все участники экспедиций обязаны сдать свои полевые дневники или их копии.}{
+\par <br><br>}{\f17 9.6.\tab В случае нарушения правил пользования Библиотекой, Коллекцией, Архивом и Музеем нарушитель лишается прав пользования .}{
+\par }\pard \qj\fi-283\li283\widctlpar\tx283\adjustright {<br><br>
+\par <br><br>10.\tab }{\b\f17 Имущество ЛЭМБ}{
+\par }\pard \qj\fi-708\li1416\widctlpar\tx1416\adjustright {<br><br>}{\f17 10.1.\tab Все вопросы, связанные с материальным обеспечением ЛЭМБ оговорены в специальном положении.}{
+\par <br><br>}{\f17 10.2.\tab Музейные и научные коллекции, а также научные материалы и результаты работ являются интеллектуальной собственностью ЛЭМБ.}{
+\par <br><br>}{\f17 10.3.\tab В публикациях, основанных на материале Лаборатории или включающих элементы такого материала, обязательной является ссылка на источник материала. Для публикации таких материалов необходимо согласие всех преподавателей Лаборатории. }{
+\par }\pard \qj\fi-283\li283\widctlpar\tx283\adjustright {<br><br>
+\par <br><br>
+\par <br><br>11.\tab }{\b\f17 Символика}{
+\par }\pard \qj\fi-708\li1416\widctlpar\tx1416\adjustright {<br><br>}{\f17 11.1.\tab Лаборатория имеет свою эмблему в виде лодки под парусом и флагом с надписью ЛЭМБ.}{
+\par <br><br>}{\f17 11.2.\tab Коррекция и изменение эмблемы возможна только при согласии всех членов лаборатории.}{
+\par <br><br>}{\f17 11.3.\tab Каждое структурное подразделение лаборатории может иметь свою эмблему, логотип или клеймо.}{
+\par }\pard \qj\widctlpar\adjustright {<br><br>
+\par <br><br>
+\par <br><br>
+\par }\pard \qj\fi720\widctlpar\adjustright {<br><br>
+\par }\pard \qj\fi720\widctlpar\adjustright {<br><br>
+\par }}

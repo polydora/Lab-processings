@@ -1,0 +1,5 @@
+"0","addition_days_date$Number <- 1:nrow(addition_days_date)
+"
+"2","Ошибка в `$<-.data.frame`(`*tmp*`, Number, value = 1:0) :
+  replacement has 2 rows, data has 0
+"

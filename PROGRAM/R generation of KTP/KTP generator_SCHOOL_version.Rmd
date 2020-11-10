@@ -1,0 +1,212 @@
+---
+title: ""
+output:
+  word_document:
+      reference_docx: ktp_templ.docx
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+# базовые установки 
+
+# Описание дат ###############
+Year_begin <- 2019
+Year_end <- 2020
+
+First_day <- "01/09" #в 2019 году для 1 года начало 10 сентября, для всех остальных 2 сентября
+Last_day <- "20/05"
+
+
+holydays <- c("04/11/2019",
+              "31/12/2019", 
+              "01/01/2020", 
+              "02/01/2020", 
+              "03/01/2020", 
+              "04/01/2020", 
+              "05/01/2020", 
+              "06/01/2020", 
+              "07/01/2020", 
+              "08/01/2020", 
+              "23/02/2020", 
+              "24/02/2020", 
+              "08/03/2020", 
+              "09/03/2020", 
+              "01/05/2020", 
+              "09/05/2020")
+
+school_holydays <- c("27/10/2019",
+                     "28/10/2019",
+                     "29/10/2019",
+                     "30/10/2019",
+                     "31/10/2019",
+                     "01/11/2019",
+                     "02/11/2019",
+                     "01/11/2019",
+                     "29/12/2019",
+                     "09/01/2020",
+                     "10/01/2020",
+                     "11/01/2020",
+                     "12/01/2020",
+                     "22/03/2020",
+                     "23/03/2020",
+                     "24/03/2020",
+                     "25/03/2020",
+                     "26/03/2020",
+                     "27/03/2020",
+                     "28/03/2020", 
+                     "29/03/2020"
+                     )
+
+
+# название программы #############
+Program_name <- "Олимп" #Берется в точности из файла "all_topics.csv"
+
+if(Program_name %in% c("Клуб естествоиспытателей", "Олимп")) holydays <- c(holydays, school_holydays)
+
+# Описание группы ############
+Group <- 222
+
+Main_days <- c("Вторник")
+# Addition_day <- c("Четверг", "4")
+Addition_day <- NA
+
+# Excursion_day <- c("Воскресенье", "1")
+Excursion_day <- NA
+
+
+
+# Производные установки ################
+
+Learning_year <- as.numeric(substr(Group, start = 1, stop = 1))
+
+First_day <- paste(First_day,"/",Year_begin, sep = "")
+Last_day <- paste(Last_day,"/",Year_end, sep = "")
+
+First_day <-strptime(First_day, format = "%d/%m/%Y")
+Last_day <- strptime(Last_day, format = "%d/%m/%Y")
+
+holydays <- strptime(holydays, format = "%d/%m/%Y")
+```
+
+
+
+
+
+<!-- УТВЕРЖДЕНО    -->
+<!-- Руководитель    -->
+<!-- Структурного подразделения    -->
+<!-- ________________/Ляндзберг А.Р./     -->
+<!-- « _____ » ____________________ `r Year_begin`    -->
+
+<!-- \ -->
+<!-- \ -->
+
+**КАЛЕНДАРНО-ТЕМАТИЧЕСКИЙ ПЛАН**    
+**Дополнительной общеобразовательной общеразвивающей программы**   
+**«`r Program_name`»**    
+**на `r Year_begin` / `r Year_end` учебный год**    
+**группа `r Learning_year` года обучения**  
+
+\
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+
+# читаем все темы из базы
+# all_topics <- read.table("all_topics.csv", header = T, sep = ";")
+
+# filepath <- "http://hydrola.ru/docs/all_topics_short.csv"
+# all_topics <- read.table(url(filepath), header=TRUE, sep=";")
+
+all_topics <- read.table("all_topics_short_school_version.csv", header=TRUE, sep=";")
+
+
+all_topics <- all_topics[all_topics$Program == Program_name, ]
+
+# Делим темы на три части
+main <- all_topics[all_topics$Type == "Main" & all_topics$Year == Learning_year, ]
+main$Number <- 1:nrow(main)
+
+addition <- all_topics[all_topics$Type == "Addition" & all_topics$Year == Learning_year, ]
+if(! is.na(Addition_day))  addition$Number <- 1:nrow(addition) 
+
+excursion <- all_topics[all_topics$Type == "Excursion" & all_topics$Year == Learning_year, ]
+if(! is.na(Excursion_day)) excursion$Number <- 1:nrow(excursion)
+
+
+
+# Фрмируем датафрейм с числами занятий 
+all_days <- data.frame(Date = seq(as.Date(First_day), as.Date(Last_day), by="days"))
+all_days$Week_day = weekdays(all_days$Date)
+all_days$Month <- months(all_days$Date)
+
+all_days <- all_days[!(all_days$Date %in% as.Date(holydays)), ] # удаляем праздники
+
+
+
+
+# Соединяем в одном датафрейме даты и темы основных занятий
+main_days_date <- all_days[all_days$Week_day %in% Main_days, ] 
+main_days_date$Number <- 1:nrow(main_days_date)
+main <- merge(main_days_date, main, by = "Number")
+
+
+
+# Соединяем в одном датафрейме даты и темы факультативных занятий
+addition_days_date <- all_days[all_days$Week_day %in% Addition_day[1], ] 
+addition_day_number <- as.numeric(Addition_day[2])
+
+
+addition_days_date <- addition_days_date %>% group_by(Month) %>% do(tibble(Date = .$Date[addition_day_number], Week_day = .$Week_day[addition_day_number], Month = .$Month[addition_day_number] ))
+
+addition_days_date <- addition_days_date[order(addition_days_date$Date), ]
+if(! is.na(Addition_day)) addition_days_date$Number <- 1:nrow(addition_days_date)
+
+if(! is.na(Addition_day)) addition <- merge(addition, addition_days_date, by = "Number")
+
+
+# Соединяем в одном датафрейме даты и темы экскурсий
+
+excursion_days_date <- all_days[all_days$Week_day %in% Excursion_day[1], ] 
+excursion_day_number <- as.numeric(Excursion_day[2])
+
+excursion_days_date <- excursion_days_date %>% group_by(Month) %>% do(tibble(Date = .$Date[excursion_day_number], Week_day = .$Week_day[excursion_day_number], Month = .$Month[excursion_day_number] ))
+
+excursion_days_date <- excursion_days_date[order(excursion_days_date$Date), ]
+if(! is.na(Excursion_day)) excursion_days_date$Number <- 1:nrow(excursion_days_date)
+
+if(! is.na(Excursion_day)) excursion <- merge(excursion, excursion_days_date, by = "Number")
+
+# Соединяем все три датафрейма в один
+
+ktp <- rbind(excursion, addition, main)
+
+ktp <- ktp[order(ktp$Date), ]
+
+ktp$Date <- format(ktp$Date, "%d/%m/%y")
+
+ktp_print <- data.frame(Number = 1:nrow(ktp), Topic = ktp$Topic, All_time = ktp$Theory + ktp$Practice, Theory = ktp$Theory, Practice = ktp$Practice,  Date = ktp$Date, Fact = NA)
+
+ktp_print$Topic <- as.character(ktp_print$Topic)
+
+
+ktp_print[nrow(ktp_print)+1, ] <- NA
+ktp_print[nrow(ktp_print), 2] <- "ВСЕГО"
+ktp_print[nrow(ktp_print), 3:5] <- colSums(ktp_print[,3:5], na.rm = T)
+
+
+```
+
+
+
+```{r}
+options(knitr.kable.NA = '')
+kable(ktp_print, col.names = c("№", "Название раздела, темы", "Всего",	"Теория", "Практика", "План",	"Факт   "), align = "llccccc")
+```
+
+
+

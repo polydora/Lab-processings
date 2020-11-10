@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1574158430593.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "527D9ADC",
+    "lastKnownWriteTime" : 1569591022,
+    "last_content_update" : 1602590317373,
+    "path" : "~/Text/Lab/PROGRAM/R generation of KTP/KTP generator 3d year.Rmd",
+    "project_path" : "KTP generator 3d year.Rmd",
+    "properties" : {
+        "cursorPosition" : "68,10",
+        "last_setup_crc32" : "B52936E30c85f01",
+        "scrollLine" : "61",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
