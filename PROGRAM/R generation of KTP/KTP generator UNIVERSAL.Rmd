@@ -19,8 +19,7 @@ opts_chunk$set(echo = FALSE)
 Year_begin <- 2020
 Year_end <- 2021
 
-Group <- 312
-
+Group <- 404
 
 
 holydays <- c("04/11/2020",
@@ -145,7 +144,7 @@ Program_longivity <- teach_groups$Program_Longivity[teach_groups$Group == Group]
 
 
 #автоматически вводим количeство учащихся
-pupils_df <- data.frame(Learning_year = 1:3, pupils = c(15, 12, 10))
+pupils_df <- data.frame(Learning_year = 1:4, pupils = c(15, 12, 10, 10))
 pupils <- pupils_df$pupils[pupils_df$Learning_year == Learning_year]
 
 ```
@@ -166,7 +165,7 @@ ________________/Ляндзберг А.Р./
 **КАЛЕНДАРНО-ТЕМАТИЧЕСКИЙ ПЛАН**    
 **Дополнительной общеобразовательной общеразвивающей программы**   
 **«`r Program_name`»**    
-**на `r Year_begin` / `r Year_begin` учебный год**    
+**на `r Year_begin` / `r Year_end` учебный год**    
 **группа № `r Group`**   
 **`r Learning_year` год обучения**  
 
