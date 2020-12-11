@@ -19,7 +19,7 @@ opts_chunk$set(echo = FALSE)
 Year_begin <- 2020
 Year_end <- 2021
 
-Group <- 145
+Group <- 147
 
 begin_distant <- "09/11/2020"
 
