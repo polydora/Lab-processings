@@ -1,0 +1,28 @@
+library(officer)
+library(magrittr)
+library(flextable)
+
+landscape_one_column <- block_section(
+  prop_section(
+    page_size = page_size(orient = "landscape"), type = "continuous"
+  )
+)
+landscape_two_columns <- block_section(
+  prop_section(
+    page_size = page_size(orient = "landscape"), type = "continuous",
+    section_columns = section_columns(widths = c(4, 4))
+  )
+)
+
+ft <- qflextable(head(iris))
+
+read_docx() %>%
+  
+  # there starts section with landscape_one_column
+  body_add_flextable(value = ft) %>%
+  body_end_block_section(value = landscape_one_column) %>%   # there stops section with landscape_one_column
+  
+  # there starts section with landscape_two_columns
+  body_add_par(value = paste(rep(letters, 50), collapse = " ")) %>%
+  body_end_block_section(value = landscape_two_columns) %>%  # there stops section with landscape_two_columns
+  print(target = "test.docx") 
