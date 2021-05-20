@@ -1,0 +1,316 @@
+---
+title: ""
+output:
+  word_document:
+      reference_docx: Protocol_itog_templ.docx
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(readxl)
+library(dplyr)
+
+opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+
+# базовые установки 
+Year_begin <- 2020
+Year_end <- 2021
+
+Group <- 145
+
+begin_distant <- "09/11/2020"
+
+end_distant <- "15/01/2021"
+
+holydays <- c("04/11/2020",
+              "31/12/2020", 
+              "01/01/2021", 
+              "02/01/2021", 
+              "03/01/2021", 
+              "04/01/2021", 
+              "05/01/2021", 
+              "06/01/2021", 
+              "07/01/2021", 
+              "08/01/2021",
+              "23/02/2021", 
+              "08/03/2021", 
+              "01/05/2021", 
+              "09/05/2021",
+              "10/05/2021",
+              "12/06/2021")
+
+# название программы #############
+Program_name <- "Программа экологии морского бентоса (гидробиология)" #Берется в точности из файла "all_topics_short_virtual.csv"
+
+
+
+# Педагоги и  группы ############
+
+
+teach_groups <- read_excel("Teaching_group_set_up.xlsx")
+
+teach_groups <- as.data.frame(teach_groups)
+
+
+# ##### Надо заменить эту часть кода чтением установочной таблицы из csv-файла
+# 
+# teach_groups <- data.frame(Group = c(141, 310, 220, 147, 224, 404, 312, 145, 222), Teacher = c("Д.А. Аристов", "Д.А. Аристов", "Д.А. Аристов", "А. В. Полоскин", "А. В. Полоскин", "А. В. Полоскин",  "В. М. Хайтов",  "В. М. Хайтов", "В. М. Хайтов" ))
+# 
+# #Основные дни занятий
+# teach_groups$Main_days <- c(
+#   "Пятница",
+#   "Вторник,Среда",
+#   "Понедельник",
+#   "Понедельник",
+#   "Среда",
+#   "Четверг,Суббота",
+#   "Вторник,Среда",
+#   "Суббота",
+#   "Пятница")
+#   
+# teach_groups$Addition_day <- c(
+#   "Суббота",
+#   NA,
+#   "Среда",
+#   "Пятница",
+#   "Вторник",
+#   NA,
+#   NA,
+#   "Среда",
+#   "Четверг")
+#   
+# # teach_groups$Addition_day <- c(
+# #   "Суббота,3",
+# #   NA,
+# #   "Среда,2",
+# #   "Пятница,3",
+# #   "Вторник,2",
+# #   NA,
+# #   NA,
+# #   "Понедельник,4",
+# #   "Четверг,4")
+# 
+# 
+# teach_groups$Excursion_day <- c(
+#   "Воскресенье,3",
+#   "Воскресенье,1",
+#   NA,
+#   "Воскресенье,3",
+#   NA,
+#   "Воскресенье,1",
+#   "Воскресенье,1",
+#   "Воскресенье,3",
+#   NA)
+  
+
+teach_groups[, 3] <- tolower(teach_groups[, 3])
+
+teach_groups[, 4] <- tolower(teach_groups[, 4])
+
+teach_groups[, 5] <- tolower(teach_groups[, 5])
+
+######################################
+
+
+# Производные установки
+
+Learning_year <- as.numeric(substr(Group, start = 1, stop = 1))
+
+First_day <- ifelse(Learning_year == 1, "10/09", "2/09") #в 2020 году для 1 года начало 10 сентября, для всех остальных 2 сентября
+
+Last_day <- "30/06"
+
+
+
+First_day <- paste(First_day,"/",Year_begin, sep = "")
+Last_day <- paste(Last_day,"/",Year_end, sep = "")
+
+
+
+
+First_day <-strptime(First_day, format = "%d/%m/%Y")
+Last_day <- strptime(Last_day, format = "%d/%m/%Y")
+
+begin_distant <- strptime(begin_distant, format = "%d/%m/%Y")
+end_distant <- strptime(end_distant, format = "%d/%m/%Y")
+
+
+holydays <- strptime(holydays, format = "%d/%m/%Y")
+
+
+Teacher <- as.character(teach_groups$Teacher[teach_groups$Group == Group])
+
+
+Main_days <- strsplit(teach_groups$Main_days[teach_groups$Group == Group], split=',', fixed=TRUE)
+
+Addition_day <- strsplit(teach_groups$Addition_day[teach_groups$Group == Group], split=',', fixed=TRUE)
+Excursion_day <- strsplit(teach_groups$Excursion_day[teach_groups$Group == Group], split=',', fixed=TRUE)
+
+
+Program_longivity <- teach_groups$Program_Longivity[teach_groups$Group == Group]
+
+
+#автоматически вводим количeство учащихся
+pupils_df <- data.frame(Learning_year = 1:4, pupils = c(15, 12, 10, 10))
+pupils <- pupils_df$pupils[pupils_df$Learning_year == Learning_year]
+
+```
+
+```{r}
+
+```
+
+
+
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+# читаем все темы из базы
+all_topics <- read_excel("all_topics_short_virtual_for_distant.xlsx")
+all_topics <- as.data.frame(all_topics)
+
+all_topics <- all_topics %>% filter(Program == Program_name)
+
+
+# Делим темы на три части
+main <- all_topics[all_topics$Type == "Main" & all_topics$Year == Learning_year, ]
+main$Number <- 1:nrow(main)
+
+# 
+# addition <- all_topics[all_topics$Type == "Addition" & all_topics$Year == Learning_year, ]
+# addition$Number <- 1:nrow(addition)
+
+
+addition <- all_topics[all_topics$Type == "Virtual" & all_topics$Year == Learning_year, ]
+if(nrow(addition) != 0) addition$Number <- 1:nrow(addition)
+
+
+excursion <- all_topics[all_topics$Type == "Excursion" & all_topics$Year == Learning_year, ]
+if(nrow(excursion) !=0)excursion$Number <- 1:nrow(excursion)
+
+
+
+# Фрмируем датафрейм с числами занятий 
+all_days <- data.frame(Date = seq(as.Date(First_day), as.Date(Last_day), by="days"))
+all_days$Week_day = weekdays(all_days$Date)
+all_days$Month <- months(all_days$Date)
+
+all_days <- all_days[!(all_days$Date %in% as.Date(holydays)), ] # удаляем праздники
+
+
+# ###Для новой формы про экскурсии и выезды####
+# 
+# if (nrow(addition)>0 & nrow(excursion)>0) {
+# #выезды
+# exc_to_df <- data.frame(id = 1:nrow(excursion), Date = excursion$Date, Place = excursion$Topic, Teacher = Teacher, Programm = Program_name, group_number = Group, pupils = pupils, Time = "10.00-12.00", duration = excursion$Practice)
+# 
+# #экскурсии
+# add_to_df <- data.frame(id = 1:nrow(addition), Date = addition$Date, Place = addition$Topic, Teacher = Teacher, Programm = Program_name, group_number = Group, pupils = pupils, Time = "16.00-17.00", duration = addition$Practice)
+# 
+# exc_add <- rbind(exc_to_df, add_to_df)
+# exc_add <- exc_add[order(exc_add$Date),]
+# }
+# if (nrow(addition)>0 & nrow(excursion) == 0) exc_add <- data.frame(id = 1:nrow(addition), Date = addition$Date, Place = addition$Topic, Teacher = Teacher, Programm = Program_name, group_number = Group, pupils = pupils, Time = "16.00-17.00", duration = addition$Practice)
+# 
+# if(nrow(addition)==0 & nrow(excursion) > 0) exc_add <- data.frame(id = 1:nrow(excursion), Date = excursion$Date, Place = excursion$Topic, Teacher = Teacher, Programm = Program_name, group_number = Group, pupils = pupils, Time = "10.00-12.00", duration = excursion$Practice)
+# 
+
+
+
+
+# Соединяем в одном датафрейме даты и темы основных занятий
+main_days_date <- all_days[all_days$Week_day %in%  Main_days[[1]], ] 
+main_days_date$Number <- 1:nrow(main_days_date)
+main <- merge(main_days_date, main, by = "Number")
+
+# Соединяем в одном датафрейме даты и темы факультативных занятий
+addition_days_date <- all_days[all_days$Week_day %in% Addition_day[[1]][1], ] 
+addition_day_number <- as.numeric(Addition_day[[1]][2])
+
+if(!is.na(addition_day_number)) 
+  addition_days_date <- addition_days_date %>% group_by(Month) %>% do(tibble(Date = .$Date[addition_day_number], Week_day = .$Week_day[addition_day_number], Month = .$Month[addition_day_number] ))
+
+addition_days_date <- addition_days_date[order(addition_days_date$Date), ]
+if(nrow(addition_days_date) !=0) addition_days_date$Number <- 1:nrow(addition_days_date)
+
+addition <- merge(addition, addition_days_date)
+
+
+# Соединяем в одном датафрейме даты и темы экскурсий
+
+excursion_days_date <- all_days[all_days$Week_day %in% Excursion_day[[1]][1], ] 
+excursion_day_number <- as.numeric(Excursion_day[[1]][2])
+
+excursion_days_date <- excursion_days_date %>% group_by(Month) %>% do(tibble(Date = .$Date[excursion_day_number], Week_day = .$Week_day[excursion_day_number], Month = .$Month[excursion_day_number] ))
+
+excursion_days_date <- excursion_days_date[order(excursion_days_date$Date), ]
+if(nrow(excursion_days_date)!=0) excursion_days_date$Number <- 1:nrow(excursion_days_date)
+
+
+excursion <- merge(excursion, excursion_days_date)
+
+# Соединяем все три датафрейма в один
+
+ktp <- rbind(excursion, addition, main)
+
+ktp <- ktp[order(ktp$Date), ]
+
+ktp$Date <- format(ktp$Date, "%d/%m/%y")
+
+ktp_print <- data.frame(Number = 1:nrow(ktp), Topic = ktp$Topic, All_time = ktp$Theory + ktp$Practice, Theory = ktp$Theory, Practice = ktp$Practice,  Date = ktp$Date, Http = ktp$http, Type = ktp$Type)
+
+
+ktp_print$Form_mater <- case_when(ktp_print$Type == "Main" ~ "Лекция и обсуждение в онлайн режиме", 
+          ktp_print$Type == "Virtual" ~ "Просомотр материалов сайта, анализ опросных форм, обсуждение в онлайн режиме",
+          ktp_print$Type == "Excursion" ~ "Выезд в природную среду")
+
+ktp_print$Form_contr <- case_when(ktp_print$Type == "Main" ~ "Электронный опрос", 
+          ktp_print$Type == "Virtual" ~ "Электронный опрос",
+          ktp_print$Type == "Excursion" ~ "Беседа")
+
+
+  
+  
+# Обрезаем КТП по сумме накопленных часов
+
+ktp_print <- ktp_print[cumsum(ktp_print$All_time) <= Program_longivity, ]
+
+# Обрезаем по границам дистантного периода
+# 
+# ktp_print <- ktp_print [as.numeric(as.POSIXct(ktp_print$Date, format = "%d/%m/%y")) >= as.numeric(begin_distant) & as.numeric(as.POSIXct(ktp_print$Date, format = "%d/%m/%y")) <= as.numeric(end_distant), ]
+# 
+# ktp_print <- ktp_print %>% select(-Type)
+
+```
+
+
+```{r}
+# Поиск итоговых занятий
+
+itog <- ktp_print[grepl("Итог",ktp_print$Topic), ]
+
+# По системной дате определется какое именно итоговое занятие надо сгенерить если сумма равна 1, то первое, если 2, то второе
+
+Number_of_itog_indicator <- sum(as.Date(itog$Date, format = "%d/%m/%y") < Sys.Date())
+
+
+itog <- itog[Number_of_itog_indicator, ]
+```
+
+```{r}
+# Чанк для вычисления накопленного количесвта часов по программе
+library(reshape2)
+library(lubridate)
+
+hours <- ktp_print %>% select(Date, Type, Theory, Practice) %>% mutate(Month = factor(months(as.Date(Date)), levels = c("Сентябрь", "Октябрь","Ноябрь", "Декабрь", "Январь","Февраль", "Март","Апрель", "Май", "Июнь"))) %>% melt() %>% group_by(Month, Type) %>% summarise(Sum_hour = sum(value)) %>% dcast(Month ~ Type) %>% mutate(Theory = Main + Virtual)
+
+
+
+
+
+```
+
