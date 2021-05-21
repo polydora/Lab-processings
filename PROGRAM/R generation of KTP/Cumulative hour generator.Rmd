@@ -9,6 +9,10 @@ output:
 library(knitr)
 library(readxl)
 library(dplyr)
+library(reshape2)
+library(lubridate)
+
+
 
 opts_chunk$set(echo = FALSE)
 ```
@@ -19,7 +23,7 @@ opts_chunk$set(echo = FALSE)
 Year_begin <- 2020
 Year_end <- 2021
 
-Group <- 145
+Group <- 404
 
 begin_distant <- "09/11/2020"
 
@@ -159,12 +163,6 @@ pupils <- pupils_df$pupils[pupils_df$Learning_year == Learning_year]
 
 ```
 
-```{r}
-
-```
-
-
-
 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
@@ -303,12 +301,15 @@ itog <- itog[Number_of_itog_indicator, ]
 
 ```{r}
 # Чанк для вычисления накопленного количесвта часов по программе
-library(reshape2)
-library(lubridate)
-
-hours <- ktp_print %>% select(Date, Type, Theory, Practice) %>% mutate(Month = factor(months(as.Date(Date)), levels = c("Сентябрь", "Октябрь","Ноябрь", "Декабрь", "Январь","Февраль", "Март","Апрель", "Май", "Июнь"))) %>% melt() %>% group_by(Month, Type) %>% summarise(Sum_hour = sum(value)) %>% dcast(Month ~ Type) %>% mutate(Theory = Main + Virtual)
+hours <- ktp_print %>% select(Date, Type, Theory, Practice) %>% mutate(Month = factor(months(as.Date(Date)), levels = c("Сентябрь", "Октябрь","Ноябрь", "Декабрь", "Январь","Февраль", "Март","Апрель", "Май", "Июнь"))) %>% melt() %>% group_by(Month, Type) %>% summarise(Sum_hour = sum(value))%>% dcast(Month ~ Type) 
 
 
+if(("Excursion" %in% names(hours)) & ("Virtual" %in% names(hours))) hours %>% mutate(Theory = Main + Virtual, Practice = Excursion) %>% mutate(Cum_hours_Practice = cumsum(Practice), Cum_hours_Theory = cumsum(Theory), Rest = sum(c(Excursion, Main, Virtual), na.rm = T) - (Cum_hours_Practice + Cum_hours_Theory), Group = Group) %>% relocate(Group)  %>% write.table(., "clipboard", sep = "\t", row.names = F, fileEncoding = "native.enc")
+
+
+if(!("Excursion" %in% names(hours)) & !("Virtual" %in% names(hours))) hours %>% mutate(Theory = Main , Practice = 0) %>% mutate(Cum_hours_Practice = cumsum(Practice), Cum_hours_Theory = cumsum(Theory), Rest = sum(c(Main), na.rm = T) - (Cum_hours_Practice + Cum_hours_Theory), Group = Group) %>% relocate(Group)  %>% write.table(., "clipboard", sep = "\t", row.names = F, fileEncoding = "native.enc")
+
+if(("Excursion" %in% names(hours)) & !("Virtual" %in% names(hours))) hours %>% mutate(Theory = Main, Practice = Excursion) %>% mutate(Cum_hours_Practice = cumsum(Practice), Cum_hours_Theory = cumsum(Theory), Rest = sum(c(Excursion, Main), na.rm = T) - (Cum_hours_Practice + Cum_hours_Theory), Group = Group) %>% relocate(Group)  %>% write.table(., "clipboard", sep = "\t", row.names = F, fileEncoding = "native.enc")
 
 
 
