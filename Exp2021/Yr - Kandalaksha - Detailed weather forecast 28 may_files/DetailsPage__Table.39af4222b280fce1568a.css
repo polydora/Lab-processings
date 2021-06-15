@@ -1,0 +1,7 @@
+.precipitation{display:inline-block}.precipitation--color{color:#006edb;color:var(--theme-rain)}.precipitation--hidden{visibility:hidden}.precipitation__unit{padding-left:.2666666667rem}
+.symbol__fallback{width:100%;height:auto}
+.temperature{display:inline-block}.temperature--cold{color:#006edb;color:var(--theme-temperature-cold)}.temperature--warm{color:#c60000;color:var(--theme-temperature-warm)}
+.wind-arrow{display:inline-block;position:relative;overflow:hidden;width:1.6rem;height:1.6rem}.wind-arrow__arrow{position:absolute;top:50%;left:50%}
+.wind{color:#21292b;color:var(--theme-wind);position:relative}.wind--color{color:#aa00f2;color:var(--theme-wind-colored)}.wind--extreme{font-weight:600}.wind--display-arrow{padding-right:1.8666666667rem}.wind__container{display:-webkit-inline-box;display:-webkit-inline-flex;display:-moz-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:baseline;-webkit-align-items:baseline;-moz-box-align:baseline;-ms-flex-align:baseline;align-items:baseline}.wind__value{display:inline-block}.wind__gust{display:inline-block;padding-left:.2666666667rem}.wind__gust--extreme{font-weight:600}.wind__unit{display:inline-block;padding-left:.2666666667rem}.wind__arrow{position:absolute;top:50%;right:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);width:1.6rem;height:1.6rem}
+
+/*# sourceMappingURL=DetailsPage__Table.39af4222b280fce1568a.css.map*/
