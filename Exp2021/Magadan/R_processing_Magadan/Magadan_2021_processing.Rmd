@@ -1,0 +1,39 @@
+---
+title: "Magadan 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(dplyr)
+library(ggplot2)
+
+
+opts_chunk$set(echo = F, message = F)
+```
+
+
+```{r}
+myt <- read.table("Data/Magadan_mussels_ecology2.txt", sep = "\t", header = T)
+
+myt$L <- as.numeric(myt$L )
+```
+
+
+```{r}
+
+library(tidyverse)
+
+myt2 <- myt %>% filter(!is.na(ID)) %>% filter(Sample != "Random_sample")
+
+myt2 <- myt2 %>% mutate(Sample2 = reorder(Sample, N_dots, median))
+
+ggplot(myt2, aes(x = Sample2, y = N_dots )) + geom_boxplot() + labs(x = "Выборка", y = "Количество точек на раковине")
+
+```
+
+Выглядит перспективно... 
+
+Так что не забудь стрясти с Адольфовны створки.
+
+
