@@ -16,28 +16,32 @@ opts_chunk$set(echo = FALSE)
 ```{r}
 
 # базовые установки 
-Year_begin <- 2020
-Year_end <- 2021
 
-Group <- 404
+Group <- 122
 
 
-holydays <- c("04/11/2020",
-              "31/12/2020", 
-              "01/01/2021", 
-              "02/01/2021", 
-              "03/01/2021", 
-              "04/01/2021", 
-              "05/01/2021", 
-              "06/01/2021", 
-              "07/01/2021", 
-              "08/01/2021",
-              "23/02/2021", 
-              "08/03/2021", 
-              "01/05/2021", 
-              "09/05/2021",
-              "10/05/2021",
-              "12/06/2021")
+
+Year_begin <- 2021
+Year_end <- 2022
+
+holydays <- c("04/11/2021",
+              "31/12/2021", 
+              "01/01/2022", 
+              "02/01/2022", 
+              "03/01/2022", 
+              "04/01/2022", 
+              "05/01/2022", 
+              "06/01/2022", 
+              "07/01/2022", 
+              "08/01/2022",
+              "09/01/2022",
+              "23/02/2022", 
+              "08/03/2022", 
+              "01/05/2022",
+              "02/05/2022",
+              "09/05/2022",
+              "10/05/2022",
+              "12/06/2022")
 
 # название программы #############
 Program_name <- "Программа экологии морского бентоса (гидробиология)" #Берется в точности из файла "all_topics_short_virtual.csv"
@@ -116,7 +120,7 @@ teach_groups[, 5] <- tolower(teach_groups[, 5])
 
 Learning_year <- as.numeric(substr(Group, start = 1, stop = 1))
 
-First_day <- ifelse(Learning_year == 1, "10/09", "2/09") #в 2020 году для 1 года начало 10 сентября, для всех остальных 2 сентября
+First_day <- ifelse(Learning_year == 1, "10/09", "1/09") #в 2021 году для 1 года начало 10 сентября, для всех остальных 1 сентября
 
 Last_day <- "30/06"
 
@@ -184,13 +188,13 @@ all_topics <- all_topics %>% filter(Program == Program_name)
 main <- all_topics[all_topics$Type == "Main" & all_topics$Year == Learning_year, ]
 main$Number <- 1:nrow(main)
 
-# 
-# addition <- all_topics[all_topics$Type == "Addition" & all_topics$Year == Learning_year, ]
-# addition$Number <- 1:nrow(addition)
+if(Learning_year == 1) 
+  {addition <- all_topics[all_topics$Type == "Addition" & all_topics$Year == Learning_year, ]
+  addition$Number <- 1:nrow(addition)} else addition <- NULL
 
 
-addition <- all_topics[all_topics$Type == "Virtual" & all_topics$Year == Learning_year, ]
-if(nrow(addition) != 0) addition$Number <- 1:nrow(addition)
+# addition <- all_topics[all_topics$Type == "Virtual" & all_topics$Year == Learning_year, ]
+# if(nrow(addition) != 0) addition$Number <- 1:nrow(addition)
 
 
 excursion <- all_topics[all_topics$Type == "Excursion" & all_topics$Year == Learning_year, ]
