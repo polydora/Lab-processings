@@ -17,7 +17,7 @@ opts_chunk$set(echo = FALSE)
 
 # базовые установки 
 
-Group <- 122
+Group <- 405
 
 
 
@@ -178,7 +178,7 @@ ________________/Ляндзберг А.Р./
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 
 # читаем все темы из базы
-all_topics <- read_excel("all_topics_short_virtual.xlsx")
+all_topics <- read_excel("all_topics_short_virtual_version_2021.xlsx")
 all_topics <- as.data.frame(all_topics)
 
 all_topics <- all_topics %>% filter(Program == Program_name)
@@ -188,7 +188,7 @@ all_topics <- all_topics %>% filter(Program == Program_name)
 main <- all_topics[all_topics$Type == "Main" & all_topics$Year == Learning_year, ]
 main$Number <- 1:nrow(main)
 
-if(Learning_year == 1) 
+if(Learning_year == 1 | Learning_year == 2) 
   {addition <- all_topics[all_topics$Type == "Addition" & all_topics$Year == Learning_year, ]
   addition$Number <- 1:nrow(addition)} else addition <- NULL
 
