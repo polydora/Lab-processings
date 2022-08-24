@@ -20,10 +20,18 @@ myt$True_Recipient <- factor(myt$True_Recipient, labels =  c("Rec_E", "Rec_T"))
 
 
 
+
+
 myt %>% ggplot(., aes(x = Duration, y = Prop_to_Rec, color = True_Recipient)) + geom_point() +geom_smooth(method = "lm") + facet_wrap(~True_Donor)
 
 
+
+
 myt %>% ggplot(., aes(x = Duration, y = N_bys)) + geom_point() +geom_smooth() + facet_grid(Year~True_Donor)
+
+myt %>% ggplot(., aes(x = Duration, y = N_bys)) + geom_point() +geom_smooth() 
+
+myt %>% ggplot(., aes(x = Duration, y = N_bys, group = Duration)) + geom_boxplot() 
 
 
 myt %>% ggplot(., aes(x = True_Recipient, y = Prop_to_Rec, fill = True_Recipient)) + geom_boxplot()  + facet_grid(Year~True_Donor)
