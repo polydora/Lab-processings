@@ -8,7 +8,7 @@ file.copy("report_generator.docx", current_report_name)
 
 send.mail(from="polydora@rambler.ru",
           encoding = "utf-8",
-          to="polydora@rambler.ru",
+          to="kand.nauka@yandex.ru",
           subject="Отчет В. М. Хайтова",
           body="letter_text.txt",
           html=T,
