@@ -1,0 +1,58 @@
+---
+title: "Отчет  о научной работе и эколого-просветительской деятельности"
+output: 
+      word_document:
+                reference_docx: report_templ.docx
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+
+```{r}
+library(readxl)
+library(dplyr)
+library(lubridate)
+library(writexl)
+```
+
+```{r}
+topic <- read_excel("Topics for reports.xlsx")
+topic_filled <- topic %>% filter(!is.na(Date))
+topic_free <- topic %>% filter(is.na(Date))
+topic_free$Date[1] <- as.character(Sys.time())
+```
+
+```{r}
+last_report <- format(topic_filled$Date[nrow(topic_filled)], "%d.%m.%Y")
+
+current_report <- format(topic_free$Date[1], "%d.%m.%Y")
+
+```
+
+
+
+
+
+Ведущего научного сотрудника Хайтова Вадима Михайловича
+за `r paste("период с", last_report, "по", current_report)`
+
+Направления деятельности:
+
+`r paste(topic_free$Topic[1])`
+
+
+### Ведущий научный сотрудник,
+ 
+### В. М. Хайтов
+ 
+```{r}
+
+topic <- rbind(topic_filled, topic_free)
+
+write_xlsx(topic, "Topics for reports.xlsx")
+```
+ 
+ 
